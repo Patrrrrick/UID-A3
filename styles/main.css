@@ -15,7 +15,6 @@
 }
 /* Product display-NewArrivals */
 .product-display{
-    width: 100vw;
     display: flex;
     flex-direction: column;
 }
