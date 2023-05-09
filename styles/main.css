@@ -13,18 +13,22 @@
     width: 50%;
     height: 100%;
 }
-/* Product display-NewArrivals */
+/* Product display*/
 .product-display{
     display: flex;
     flex-direction: column;
+    width: 80vw;
+    justify-content: center;
 }
+/* Product display-NewArrivals */
 .newArrivals{
     display: grid;
     grid-template-columns: 1.5fr 3fr;
     grid-template-rows: 2fr 1fr;
     height: 120vh;
-    width: 80vw;
+    width: 100vw;
     grid-gap: 30px;
+    
 }
 .newArrivals-image-1{
     width: 1fr;
@@ -65,6 +69,7 @@
     text-align: center;
 }
 .bestSellers{
+    margin-top: 15vh;
     display: grid;
     grid-template-columns: 4fr 1.5fr 1.5fr;
     grid-template-rows: 1.5fr 2fr;
@@ -125,6 +130,7 @@
     grid-column: 2/4;
 }
 /* Product display-50% off */
-.salebar{
-    background-color: 185 80 132 66;
+.salebar > h2{
+    background-color: rgba(185 80 132 0.66);
+    text-align: center;
 }
