@@ -246,7 +246,20 @@ h5{
     width: 100vw;
 }
 .categories-clothing{
+    position: relative;
     grid-column: 1/2;
     grid-row: 1/4;
     height: 100%;
+    overflow: hidden;
+}
+.categories-clothing img{
+    object-fit: cover;
+}
+.clothing-text{
+    color: white;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+
 }
