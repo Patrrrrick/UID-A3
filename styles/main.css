@@ -22,6 +22,7 @@
 }
 /* Product display-NewArrivals */
 .newArrivals{
+    margin-top: 15vh;
     display: grid;
     grid-template-columns: 1.5fr 3fr;
     grid-template-rows: 2fr 1fr;
@@ -74,7 +75,7 @@
     grid-template-columns: 4fr 1.5fr 1.5fr;
     grid-template-rows: 1.5fr 2fr;
     height: 120vh;
-    width: 80vw;
+    width: 100vw;
     grid-gap: 25px;
 }
 .bestSellers-image-1{
@@ -130,6 +131,7 @@
     grid-column: 2/4;
 }
 /* Product display-50% off */
+sidebar
 .salebar > h2{
     background-color: rgba(185 80 132 0.66);
     text-align: center;
