@@ -1,5 +1,16 @@
 .workSpace {
-display: flex;
+display: flexbox;
 width: 1920px;
 height: auto;
+}
+
+.coverImage {
+    background-image: none;
+    font-size: 68.54px;
+    flex-basis: 70%;
+    font-style: bold;
+    flex-basis: 70%;
+    
+
+    
 }
