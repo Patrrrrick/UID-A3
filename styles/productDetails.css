@@ -130,9 +130,11 @@
 /* Product description area */
 .product-description{
     left: 55%;
-    top: 50%;
+    top: 10%;
     right: 20%;
     grid-column: 2/3;
     grid-row: 2/3;
     position: fixed;
+    display: flex;
+    flex-direction: column;
 }
