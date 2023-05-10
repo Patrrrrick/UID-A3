@@ -1,6 +1,6 @@
 .workSpace {
 display: flexbox;
-width: 1920px;
+width: auto;
 height: auto;
 justify-content: center;
 align-items: center;
@@ -12,7 +12,7 @@ align-items: center;
     flex-basis: 70%;
     font-style: bold;
     flex-basis: 70%;
-    
+    text-align: center;
 
     
 }
