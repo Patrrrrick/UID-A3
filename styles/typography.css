@@ -18,23 +18,23 @@
 }
 /* heading */
 h1{
-    font-size: var(--text-xxxl);
+    font-size: var(--text-xxxl);/*110.89px*/
     font-family: var(--font-primary);
 }
 h2{
-    font-size: var(--text-xxl);
+    font-size: var(--text-xxl);/*68.54px*/
     font-family: var(--font-primary);
 }
 h3{
-    font-size: var(--text-xl);
+    font-size: var(--text-xl);/*42.36px*/
     font-family: var(--font-primary);
 }
 h4{
-    font-size: var(--text-lg);
+    font-size: var(--text-lg);/*26.18px*/
     font-family: var(--font-primary); 
 }
 h5{
-    font-size: var(--text-md);
+    font-size: var(--text-md);/*16.18px*/
     font-family: var(--font-primary); 
     font-style: bold;
 }
