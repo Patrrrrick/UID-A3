@@ -12,7 +12,11 @@ align-items: center;
     flex-basis: 70%;
     font-style: bold;
     flex-basis: 70%;
-    text-align: center;
+    text-align: center;    
+}
+.product-display {
 
-    
+}
+.product {
+
 }
