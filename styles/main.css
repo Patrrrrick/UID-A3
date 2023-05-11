@@ -57,18 +57,20 @@ h5{
     height: 100%;
 }
 /* Product display*/
-.product-display{
+.products-display{
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 /* Product display-NewArrivals */
 .newArrivals{
-    margin-top: 15vh;
+    margin-top: 5vh;
+    transform: scale(0.85);
+    transform-origin: center;
     display: grid;
     grid-template-columns: 586fr 1008fr;
     grid-template-rows: 609fr 392fr;
-    height: 130vh;
+    height: 110vh;
     width: 100vw;
     grid-gap: 30px;
     
@@ -106,11 +108,12 @@ h5{
 }
 /* Product display-BestSellers */
 .bestSellers{
-    margin-top: 15vh;
+    transform: scale(0.85);
+    transform-origin: center;
     display: grid;
     grid-template-columns: 967fr 295fr 295fr;
     grid-template-rows: 460fr 544fr;
-    height: 130vh;
+    height: 110vh;
     width: 100vw;
     grid-gap: 25px;
 }
@@ -161,18 +164,18 @@ h5{
 }
 /* Product display-sales */
 .sales{
+    transform: scale(0.85);
+    transform-origin: center;
     display: grid;
     grid-template-columns: 302fr 302fr 925fr;
     grid-template-rows: 107fr 481fr 481fr 88fr;
     grid-gap: 25px;
-    height: 160vh;
+    height: 125vh;
     width: 100vw;
 
 }
 .salebar{
-    justify-self: center;
-    position: relative;
-    margin-top: 15vh;
+    text-align: center;
     width: 100vh;
     height: 10vh;
     background-color: rgba(185 80 132 0.66);
@@ -351,5 +354,4 @@ h5{
     top: 50%;
     width: 100%;
     text-align: center;
-
 }
