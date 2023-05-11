@@ -254,7 +254,7 @@ h5{
     grid-template-columns: 1182fr 455fr 274fr;
     grid-template-rows: 210fr 123fr 546fr;
     grid-gap: 3px;
-    height: 100vh;
+    height: 90vh;
     width: 100vw;
 }
 .categories-clothing{
