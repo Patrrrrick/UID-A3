@@ -1,17 +1,17 @@
 .workSpace {
-display: flexbox;
-width: auto;
+width:100%;
+max-width: 1920px;
+min-width: none;
 height: auto;
 justify-content: center;
 align-items: center;
 }
 
 .coverImage {
-    background-image: none;
+    display: flex;
+    background-color: brown;
     font-size: 68.54px;
-    flex-basis: 70%;
     font-style: bold;
-    flex-basis: 70%;
     text-align: center;    
 }
 .product-display {
