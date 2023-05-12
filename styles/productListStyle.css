@@ -41,6 +41,8 @@
     max-width: 200px;
     height: auto;
     margin-bottom: 10px;
-
+}
+.product p {
+    font-size: 16.18px;
 }
 
