@@ -16,7 +16,8 @@
     background-image: url(/Users/ryanwang/Desktop/asssssss/UID-A3/images/homepages/Esmaee-Rosewood-Blouse-A-1.webp);
     font-size: 68.54px;
     font-style: bold;
-    text-align: center;    
+    text-align: center;  
+    background-position: 50% 15%;  
 }
 .tab-bar {
     display: inline-block;
