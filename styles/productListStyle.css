@@ -1,13 +1,9 @@
-.workSpace {
-width:100%;
-max-width: 1920px;
-min-width: none;
-height: auto;
-justify-content: center;
-align-items: center;
-}
-
 .coverImage {
+    width: 70%;
+    height: 555px;
+    align-items: center;
+    align-content: center;
+    text-align: center;
     display: flex;
     background-color: brown;
     font-size: 68.54px;
