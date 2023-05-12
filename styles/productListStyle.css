@@ -19,7 +19,12 @@
     text-align: center;    
 }
 .tab-bar {
-    display: inline-flex;
+    display: inline-block;
+    height: auto;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 .product-display {
 
