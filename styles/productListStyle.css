@@ -5,6 +5,8 @@
 
 }
 .coverImage {
+    margin-right: auto;
+    margin-left: auto;
     width: 80%;
     height: 555px;
     align-items: center;
@@ -15,6 +17,9 @@
     font-size: 68.54px;
     font-style: bold;
     text-align: center;    
+}
+.tab-bar {
+    display: inline-flex;
 }
 .product-display {
 
