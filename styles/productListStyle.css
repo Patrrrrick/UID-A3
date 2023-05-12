@@ -1,4 +1,9 @@
+.workSpace {
+    width: 100%;
+    height: auto;
+    justify-content: center;
 
+}
 .coverImage {
     width: 80%;
     height: 555px;
