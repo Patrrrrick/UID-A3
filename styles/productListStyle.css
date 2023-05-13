@@ -1,22 +1,75 @@
 .workSpace {
-width:100%;
-max-width: 1920px;
-min-width: none;
-height: auto;
-justify-content: center;
-align-items: center;
-}
+    width: 100%;
+    height: auto;
+    justify-content: center;
 
+}
 .coverImage {
+    margin-right: auto;
+    margin-left: auto;
+    width: 80%;
+    height: 555px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
     display: flex;
-    background-color: brown;
+    background-image: url(/Users/ryanwang/Desktop/asssssss/UID-A3/images/homepages/Esmaee-Rosewood-Blouse-A-1.webp);
     font-size: 68.54px;
     font-style: bold;
-    text-align: center;    
+    text-align: center;  
+    background-position: 50% 15%;  
+}
+.coverImage h2 {
+    flex-grow: 1;
+    padding: 10px;
+    font-style: bold;
+    color: aliceblue;
+    
+}
+.tab-bar {
+    display: flex;
+    height: auto;
+    width: 80%;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+.tab-l p {
+    display: inline-block;
+    font-size: 26.18px;
+}
+
+.tab-r p{
+    display: inline-block;
+    font-size: 26.18px;
+}
+.productContainer{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    margin-bottom: 14px;
 }
 .product-display {
 
 }
-.product {
-
+.product img {
+    width: 100%;
+    max-width: 290px;
+    height: auto;
+    margin-bottom: 10px;
+    margin-right: 20px;
 }
+.product p {
+    font-size: 16.18px;
+}
+
+.Name {
+    text-align: center;
+}
+
