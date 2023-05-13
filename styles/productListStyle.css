@@ -30,6 +30,11 @@
     display: inline-block;
     font-size: 26.18px;
 }
+
+.tab-r p{
+    display: inline-block;
+    font-size: 26.18px;
+}
 .productContainer{
     width: 80%;
     height: 100%;
