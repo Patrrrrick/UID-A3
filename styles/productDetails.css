@@ -60,12 +60,12 @@
 .product-information p{
     padding-top: 2vh;
     padding-left: 2vw;
-    font-size: var(--text-lg);
+    font-size: var(--text-md);
     font-family: var(--font-secondary);
 }
 .important-info{
     padding-top: 2vh;
-    font-size: var(--text-lg);
+    font-size: var(--text-md);
     font-family: var(--font-secondary);
 }
 
@@ -78,8 +78,9 @@
     grid-template-rows: 37fr 265fr;
     overflow: hidden;
 }
-.recommendation h2{
-    margin-bottom: 1vh;
+.recommendation h3{
+    margin-left: 10px;
+    margin-bottom: 5px;
     grid-column: 1/4;
     grid-row: 1/2;
 }
@@ -87,6 +88,7 @@
     width: 100%;
     height: 90%;
     object-fit: cover;
+    object-position: top;
 }
 .recommendation-product-1{
     grid-column: 1/2;
@@ -137,4 +139,78 @@
     position: fixed;
     display: flex;
     flex-direction: column;
+}
+.product-subtext{
+    margin-top: 30px;
+    font-size: var(--text-md);
+    font-family: var(--font-secondary);
+}
+.product-price{
+    margin-top: 30px;
+    font-size: var(--text-xl);
+    font-family: var(--font-primary);
+}
+.product-afterpay{
+    display: inline;
+
+}
+.afterpay-text{
+    display: inline;
+    font-size: var(--text-md);
+    font-family: var(--font-secondary);
+}
+.afterpay-icon{
+    font-style: bold;
+    display: inline;
+
+}
+.colour-choice{
+    margin-top: 30px;
+}
+.colour-btn{
+    height: 5vh;
+    display: flex;
+    margin-top: 10px;
+    transform: scale(0.8);
+}
+.colour-btn img{
+    margin-right: 30px;
+}
+.colour-choice p{
+    font-size: var(--text-md);
+    font-family: var(--font-secondary);
+}
+.size-choice{
+    margin-top: 30px;
+}
+.size-choice p{
+    font-size: var(--text-md);
+    font-family: var(--font-secondary);
+}
+.size-btn{
+    margin-top: 10px;
+    display: flex;
+    margin-left: 20px;
+}
+.size-btn img{
+    margin-right: 20px;
+}
+.add-to-bag{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.shipping-info{
+    color: #B95084;
+    font-size: var(--text-sm);
+}
+.add-to-bag-btn{
+    margin-top: 5px;
+    display: flex;
+    text-align: center;
+    border: 1px solid black;
+    width: 430px;
+    height: 52px;
+    justify-content: center;
+    align-items: center;
 }
