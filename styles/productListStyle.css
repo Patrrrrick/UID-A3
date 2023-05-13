@@ -19,6 +19,13 @@
     text-align: center;  
     background-position: 50% 15%;  
 }
+.coverImage h2 {
+    flex-grow: 1;
+    padding: 10px;
+    font-style: bold;
+    color: aliceblue;
+    
+}
 .tab-bar {
     display: flex;
     height: auto;
