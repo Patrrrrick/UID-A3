@@ -25,6 +25,8 @@
     width: 80%;
     flex-direction: row;
     justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
 }
 .tab-l p {
     display: inline-block;
