@@ -1,0 +1,10 @@
+<svg id="quantity_" data-name="quantity+" xmlns="http://www.w3.org/2000/svg" width="27" height="27" viewBox="0 0 27 27">
+  <g id="Rectangle_181" data-name="Rectangle 181" fill="#fff" stroke="#707070" stroke-width="0.2">
+    <rect width="27" height="27" stroke="none"/>
+    <rect x="0.1" y="0.1" width="26.8" height="26.8" fill="none"/>
+  </g>
+  <g id="加_plus" transform="translate(7.762 7.762)">
+    <path id="Path_110" data-name="Path 110" d="M24.053,10l-.029,11.088" transform="translate(-18.478 -10)" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="0.5"/>
+    <path id="Path_111" data-name="Path 111" d="M10,24H21.088" transform="translate(-10 -18.456)" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="0.5"/>
+  </g>
+</svg>
