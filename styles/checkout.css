@@ -22,9 +22,6 @@
     border-bottom: 1.5px solid rgba(184, 184, 184, 0.5);
 }
 
-
-
-
 /* Style for the whole page */
 .checkoutPage{
     display: flex;
@@ -37,7 +34,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-top: 1vh;
+    margin-top: 2vh;
 }
 .header img{
     position: absolute;
@@ -46,6 +43,7 @@
 
 /* Style for the logo */
 .logo-title{
+    margin-top: 2vh;
     display:flex;
     justify-content: center;
 }
@@ -122,6 +120,7 @@
     text-decoration: underline;
 }
 .add-quantity{
+    margin-left: 70px;
     margin-top: auto;
     display: flex;
     flex-direction: column;
