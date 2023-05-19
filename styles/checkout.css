@@ -1,0 +1,28 @@
+/* Style for the whole page */
+.checkoutPage{
+    display: flex;
+    flex-direction: column;
+}
+
+/* Style for header */
+.header{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 1vh;
+}
+.header img{
+    position: absolute;
+    left: 1vw;
+}
+
+/* Style for the logo */
+.logo-title{
+    display:flex;
+    justify-content: center;
+}
+.logo-title img{
+    transform: scale(1.2);
+}
+/* Style for body-shopping bag */
