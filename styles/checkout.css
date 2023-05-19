@@ -1,5 +1,5 @@
 .btn-2{
-    border: 1px solid black;
+    border: 1px solid rgba(0, 0, 0, 0.7);
     width: 200PX;
     height: 50PX;
     font-size: var(--text-md);
@@ -145,9 +145,6 @@ input::placeholder{
 }
 #Country-Region{
     width: 500px;
-}
-.form-address-1{
-    
 }
 #Street-Address{
     width: 370px;
