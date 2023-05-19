@@ -227,9 +227,27 @@ input::placeholder{
     flex-direction: row;
     align-items: center;
 }
+.afterpay img{
+    transform: scale(0.8);
+}
 .afterpay-tips{
     margin-right: auto;
     font-family: var(--font-secondary);
     font-size: var(--text-sm);
     color: rgba(0, 0, 0, 0.8);
+}
+
+.payment-title{
+    margin-top: 30vh;
+    margin-right: auto;
+    font-family: var(--font-secondary);
+    font-size: var(--text-md);
+}
+.payment-methods{
+    display: flex;
+    flex-direction: row;
+    transform: scale(0.95);
+}
+.payment-methods > * + *{
+    margin-left: 5px;
 }
