@@ -1,4 +1,13 @@
-
+.size{
+    font-family: var(--font-secondary);
+    font-size: var(--text-md);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 52px;
+    height: 52px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
 /* Product details area */
 .product-details{
     display: grid;
@@ -8,8 +17,15 @@
 }
 /* Navigation Bar */
 .nav-bar{
-    grid-column: 1/3;
+    margin-top: 10vh;
+    grid-column: 1/2;
     grid-row: 1/2;
+    margin-left: 35%;
+    display: flex;
+    flex-direction: row;
+}
+.nav-product{
+    color: #B95084;
 }
 /* Product display area */
 .product-display{
@@ -17,16 +33,22 @@
     grid-row: 2/3;
     display: grid;
     grid-template-columns: 137fr 506fr;
-    grid-template-rows: 761fr 320fr 330fr;
+    grid-template-rows: 420fr 320fr 330fr;
+}
+.product-photo{
+    grid-column: 1/3;
+    grid-row: 1/2;
+    display: grid;
+    grid-template-columns: 137fr 520fr; 
+    margin-left: auto;
 }
 .thumbnails{
-    width: 80%;
+    width: 131px;
+    height: 181px;
     grid-column: 1/2;
-    grid-row: 1/3;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-self: center;
+    margin-left: auto;
 }
 .thumbnails img{
     margin-bottom: 1vh;
@@ -35,10 +57,10 @@
 
 .product-image{
     grid-column: 2/3;
-    grid-row: 1/2;
-    width: 100%;
-    height: 100%;
+    width: 506px;
+    height: 761px;;
     overflow: hidden;
+    margin-left: 10px;
 }
 .product-image img{
     width: 100%;
@@ -50,7 +72,8 @@
     margin-top: 5vh;
     grid-column: 2/3;
     grid-row: 2/3;
-    width: 90%;
+    width: 506px;
+    margin-left: 300px;
     display: flex;
     flex-direction: column;
 }
@@ -71,7 +94,7 @@
 
 .recommendation{
     margin-top: 5vh;
-    grid-column: 1/3;
+    grid-column: 2/3;
     grid-row: 3/4;   
     display: grid;
     grid-template-columns: 205fr 205fr 205fr;
@@ -132,7 +155,7 @@
 /* Product description area */
 .product-description{
     left: 55%;
-    top: 10%;
+    top: 15%;
     right: 20%;
     grid-column: 2/3;
     grid-row: 2/3;
@@ -192,7 +215,7 @@
     display: flex;
     margin-left: 20px;
 }
-.size-btn img{
+.size-btn .size{
     margin-right: 20px;
 }
 .add-to-bag{
