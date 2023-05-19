@@ -8,7 +8,9 @@
     justify-content: center;
     align-items: center;
 }
-
+.line{
+    border-bottom: 1.5px solid rgba(184, 184, 184, 0.5);
+}
 
 
 
@@ -97,13 +99,11 @@
     font-family: var(--font-secondary);
     font-size: var(--text-sm);
 }
-.line-1{
+#line-1{
     grid-column: 1/2;
-    border-bottom: 1.5px solid rgba(184, 184, 184, 0.5);
 }
-.line-2{
+#line-2{
     grid-column: 3/4;
-    border-bottom: 1.5px solid rgba(184, 184, 184, 0.5);
 }
 
 .tips{
@@ -160,7 +160,64 @@ input::placeholder{
 }
 /* Style for body-payments*/
 .payments{
-    margin-left: 15%;
+    margin-left: 10%;
     margin-right: 20%;
     grid-column: 3/4;
+    display: flex;
+    flex-direction: column;
+
+}
+.subtotal{
+    display: flex;
+    flex-direction: row;
+
+}
+.subtotal-title{
+    margin-right: auto;
+    font-family: var(--font-secondary);
+    font-size: var(--text-md);
+}
+.price{
+    font-family: var(--font-primary);
+    font-size: var(--text-md);
+}
+#line-3{
+    margin-top: 1vh;
+    transform: scale(1.1);
+}
+.shipping-price{
+    margin-top: 2vh;
+    display: flex;
+    flex-direction: row;
+}
+.shipping-price-title{
+    margin-right: auto;
+    font-family: var(--font-secondary);
+    font-size: var(--text-md);
+}
+.shipping-price-discount{
+    font-family: var(--font-primary);
+    font-size: var(--text-md);
+    color: #FF0783;
+    text-decoration: line-through;
+}
+.shipping-price-tips{
+    margin-top: 1vh;
+    font-family: var(--font-secondary);
+    font-size: var(--text-sm);
+    color: rgba(0, 0, 0, 0.8);
+}
+.total{
+    margin-top: 2vh;
+    display: flex;
+    flex-direction: row;
+}
+.total-title{
+    margin-right: auto;
+    font-family: var(--font-secondary);
+    font-size: var(--text-md);
+}
+.total-price{
+    font-family: var(--font-primary);
+    font-size: var(--text-md);  
 }
