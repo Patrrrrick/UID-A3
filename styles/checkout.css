@@ -25,4 +25,34 @@
 .logo-title img{
     transform: scale(1.2);
 }
+/* Style for body */
+.body{
+    display: grid;
+    grid-template-columns: 396fr 522fr 412fr;
+
+}
 /* Style for body-shopping bag */
+.shopping-bag{
+    grid-column: 1/2;
+    display: flex;
+    flex-direction: column;
+}
+.shopping-bag-title{
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+.quantity{
+    margin-left: auto;
+}
+.shopping-bag-title h5{
+    margin-left: auto;
+}
+/* Style for body-forms*/
+.forms{
+    grid-column: 2/3;
+}
+/* Style for body-payments*/
+.payments{
+    grid-column: 3/4;
+}
