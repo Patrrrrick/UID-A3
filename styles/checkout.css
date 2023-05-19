@@ -74,6 +74,58 @@
 .shopping-bag-title h5{
     margin-left: auto;
 }
+.products{
+    display: flex;
+    flex-direction: row;
+    margin-top: 3vh;
+}
+.productimage{
+    width: 140px;
+    height: 185px;
+    object-fit: cover;
+}
+.product-info{
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.product-style{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.size{
+    font-family: var(--font-secondary);
+    font-size: var(--text-sm);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 55px;
+    height: 22px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+.colour-choice{
+    margin-left: 50px;
+    transform: scale(0.75);
+}
+.product-price{
+    margin-top: 15px;
+    font-family: var(--font-primary);
+    font-size: var(--text-md);  
+}
+.remove{
+    margin-top: 25px;
+    font-family: var(--font-secondary);
+    font-size: var(--text-sm); 
+    text-decoration: underline;
+}
+.add-quantity{
+    margin-top: auto;
+    display: flex;
+    flex-direction: column;
+}
 /* Style for body-forms*/
 .forms{
     margin-left: 10%;
