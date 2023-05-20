@@ -1,10 +1,22 @@
+/* Style for mobile overall homepage*/
+.homepage-mobile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 /* Style for mobile menu */
 .mobile-menu{
-
+    height: 10vh;
 }
 /* Style for mobile hero banner */
 .mobile-heroBanner{
-
+    overflow: hidden;
+    width: 100vw;
+}
+.mobile-heroBanner img{
+    object-position: top;
+    object-fit: cover;
+    width: 100%;
 }
 /* Style for mobile new arrivals */
 .mobile-newArrivals{
