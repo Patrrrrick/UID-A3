@@ -1,3 +1,21 @@
+.btn{
+    color: white;
+    background-color: #B95084;
+    font-size: var(--text-md);
+    font-family: var(--font-secondary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-3{
+    color: white;
+    background-color: #F29F91;
+    font-size: var(--text-md);
+    font-family: var(--font-secondary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 /* Style for overall page */
 .confirmation-page{
     display: flex;
@@ -190,5 +208,15 @@
 }
 /* Style for footer */
 .confirmation-footer{
-
+    margin-top: 2vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.confirmation-footer > * + *{
+    margin-left: 2vw;
+}
+.confirmation-footer div{
+    width: 250px;
+    height: 60px;
 }
