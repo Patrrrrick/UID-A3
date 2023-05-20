@@ -1,0 +1,21 @@
+/* Style for overall page */
+.confirmation-page{
+    display: flex;
+    flex-direction: column;
+}
+/* Style for header and page title */
+.header{
+
+}
+/* Style for package logo */
+.logo{
+
+}
+/* Style for main body */
+.body{
+
+}
+/* Style for footer */
+.confirmation-footer{
+
+}
