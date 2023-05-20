@@ -31,6 +31,7 @@
     display: flex;
     flex-direction: row;
 }
+/* Style for main body-shopping details */
 .shopping-details{
     display: flex;
     flex-direction: column;
@@ -137,6 +138,17 @@
     font-family: var(--font-primary);
     font-size: var(--text-md);  
 }
+/* Style for main body-shipping on the way*/
+.shipping-on-the-way{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.shipping-on-the-way h4{
+    color: #B95084;
+    text-align: center;
+}
+
 /* Style for footer */
 .confirmation-footer{
 
