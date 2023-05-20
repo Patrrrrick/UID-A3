@@ -30,9 +30,12 @@
     margin-top: 2vh;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 /* Style for main body-shopping details */
 .shopping-details{
+    margin-top: 2vh;
+    margin-left: 10vh;
     display: flex;
     flex-direction: column;
 }
@@ -140,6 +143,8 @@
 }
 /* Style for main body-shipping on the way*/
 .shipping-on-the-way{
+    margin-top: 2vh;
+    margin-left: 10vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -150,6 +155,8 @@
 }
 /* Style for main body-shipping map*/
 .shipping-map{
+    margin-top: 2vh;
+    margin-left: 10vh;
     display: flex;
     flex-direction: column;
     align-items: center; 
