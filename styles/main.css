@@ -1,4 +1,5 @@
 
+/* Style for Desktop */
 /* Menu bar */
 .menu{
     height: 10vh;
@@ -374,4 +375,76 @@ h5{
     top: 50%;
     width: 100%;
     text-align: center;
+}
+
+
+
+
+
+@media screen and (max-width:850px) {   
+/* Style for mobile */
+.body{
+    display: flex;
+    flex-direction: column;
+}
+/* Homepage hero banner-mobile */
+.hero-banner{
+    height: 100vh;
+    width: 100vw;
+}
+.hero-banner-image{
+    margin-top: 5vh;
+    width: 100%;
+    overflow: hidden;
+}
+.hero-banner-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.hero-banner-image-2{
+    visibility: hidden;
+    width: 0%;
+    height: 0%;
+}
+/* Product display-mobile*/
+.products-display{
+    margin-top: 20vh;
+    display: flex;
+    flex-direction: column;
+}
+/* Product display-NewArrivals-mobile */
+.newArrivals{
+    margin-top: 1vh;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+}
+.newArrivals-image-2{
+    overflow: hidden;
+    height: 300vh;
+}
+.newArrivals-image-2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+.newArrivals-image-1{
+    overflow: hidden;
+}
+.newArrivals-image-1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.newArrivals-description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 30px;
+}
 }
