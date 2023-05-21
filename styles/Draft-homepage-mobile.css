@@ -1,36 +1,61 @@
-/* Style for mobile overall homepage*/
-.homepage-mobile{
+   
+/* Style for mobile */
+/* Homepage hero banner-mobile */
+.hero-banner{
+    height: 100vh;
+    width: 100vw;
+}
+.hero-banner-image{
+    margin-top: 5vh;
+    width: 100%;
+}
+.hero-banner-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.hero-banner-image-2{
+    visibility: hidden;
+    width: 0%;
+    height: 0%;
+}
+/* Product display-mobile*/
+.products-display{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/* Product display-NewArrivals-mobile */
+.newArrivals{
+    margin-top: 1vh;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+}
+.newArrivals-image-2{
+    overflow: hidden;
+    height: 75%;
+}
+.newArrivals-image-2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+.newArrivals-image-1{
+    overflow: hidden;
+}
+.newArrivals-image-1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.newArrivals-description{
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-/* Style for mobile menu */
-.mobile-menu{
-    height: 10vh;
-}
-/* Style for mobile hero banner */
-.mobile-heroBanner{
-    overflow: hidden;
-    width: 100vw;
-}
-.mobile-heroBanner img{
-    object-position: top;
-    object-fit: cover;
-    width: 100%;
-}
-/* Style for mobile new arrivals */
-.mobile-newArrivals{
-
-}
-/* Style for mobile best sellers */
-.mobile-bestSellers{
-
-}
-/* Style for mobile sale */
-.mobile-sale{
-
-}
-/* Style for mobile categories */
-.mobile-categories{
-
+    justify-content: center;
+    margin-right: 30px;
 }
