@@ -387,6 +387,12 @@ h5{
     display: flex;
     flex-direction: column;
 }
+/* Button setting */
+.button{
+    visibility: hidden;
+    width: 0%;
+    height: 0%;
+}
 /* Homepage hero banner-mobile */
 .hero-banner{
     height: 100vh;
@@ -403,13 +409,11 @@ h5{
     object-fit: cover;
 }
 .hero-banner-image-2{
-    visibility: hidden;
-    width: 0%;
-    height: 0%;
+    display: none;
 }
 /* Product display-mobile*/
 .products-display{
-    margin-top: 20vh;
+    margin-top: 5vh;
     display: flex;
     flex-direction: column;
 }
@@ -441,10 +445,5 @@ h5{
     object-position: center;
 }
 .newArrivals-description{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-right: 30px;
 }
 }
