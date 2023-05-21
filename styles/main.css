@@ -445,6 +445,7 @@ h5{
     object-position: center;
 }
 .newArrivals-description{
+    margin: 0;
 }
 /* Product display-BestSellers */
 .bestSellers{
