@@ -1,0 +1,143 @@
+.btn-3{
+    color: white;
+    background-color: #B95084;
+    width: 412PX;
+    height: 50PX;
+    font-size: var(--text-md);
+    font-family: var(--font-secondary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bag{
+    margin-left: auto;
+    border: 1px solid black;
+    width: 25vw;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* Style for shopping bag products */
+.shopping-bag{
+    margin-left: 5%;
+    margin-right: 10%;
+    grid-column: 1/2;
+    display: flex;
+    flex-direction: column;
+}
+.shopping-bag-title{
+    display: flex;
+    position: relative;
+    align-items: center;
+    margin-bottom: 5vh;
+}
+.shopping-bag-title img{
+    position: absolute;
+    top: 1vh;
+}
+.shopping-bag-title h4{
+    position: absolute;
+    top: 1vh;
+    left: 40%;
+}
+.shopping-bag-title h5{
+    position: absolute;
+    top: 1.5vh;
+    left: 90%;
+}
+.products{
+    display: flex;
+    flex-direction: row;
+    margin-top: 3vh;
+}
+.productimage{
+    width: 140px;
+    height: 185px;
+    object-fit: cover;
+}
+.product-info{
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.product-style{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.size{
+    font-family: var(--font-secondary);
+    font-size: var(--text-sm);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 55px;
+    height: 22px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+.colour-choice{
+    margin-left: 50px;
+    transform: scale(0.75);
+}
+.product-price{
+    margin-top: 15px;
+    font-family: var(--font-primary);
+    font-size: var(--text-md);  
+}
+.remove{
+    margin-top: 25px;
+    font-family: var(--font-secondary);
+    font-size: var(--text-sm); 
+    text-decoration: underline;
+}
+.add-quantity{
+    margin-left: 70px;
+    margin-top: auto;
+    display: flex;
+    flex-direction: column;
+}
+.bag-info{
+    position: absolute;
+    top: 90%;
+    background-color: rgba(225, 191, 208, 0.49);
+    width: 100%;
+    height: 41px;
+}
+.afterpay{
+    margin-top: 1vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.afterpay img{
+    transform: scale(0.8);
+}
+.afterpay-tips{
+    margin-right: 5px;
+    font-family: var(--font-secondary);
+    font-size: var(--text-sm);
+    color: rgba(0, 0, 0, 0.8);
+}
+.bag-subtotal{
+    display: flex;
+    flex-direction: row;
+}
+.price{
+    font-family: var(--font-primary);
+    font-size: var(--text-md);
+}
+.subtotal-title{
+    margin-right: auto;
+    font-family: var(--font-secondary);
+    font-size: var(--text-md);
+}
+.checkout-btn{
+    position: absolute;
+    bottom: 1%;
+}
