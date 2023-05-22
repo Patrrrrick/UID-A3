@@ -533,4 +533,92 @@ h5{
 .bestSellers-description{
     display: none;
 }
+/* Product display-sales */
+.sales{
+    display: flex;
+    flex-direction: column;
+    height: 125vh;
+    width: 100vw;
+}
+.salebar{
+    text-align: center;
+    width: 100vh;
+    height: 10vh;
+}
+.salebar > h2{
+    color: white;
+    background-color: rgba(185, 80, 132, 0.66);
+    text-align: center;
+    position: absolute;
+    line-height: 10vh;
+    width: 100%;
+    text-align: center;
+}
+.price-setting{
+    display: flex;
+    justify-content: center;
+}
+.sales-image-1{
+    margin-top: 10px;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.sales-image-1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.sale-products{
+    display: flex;
+    flex-direction: row;
+}
+.sales-product-1{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.sales-product-1 img{
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+    object-position: top;
+}
+.sales-product-2{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.sales-product-2 img{
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+    object-position: top;
+}
+.sales-product-3{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.sales-product-3 img{
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+    object-position: top;
+}
+.sales-product-4{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.sales-product-4 img{
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+    object-position: top;
+}
+.sale-products > .button{
+    grid-column: 1/3;
+    grid-row: 3/4;
+}
 }
