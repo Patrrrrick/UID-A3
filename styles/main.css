@@ -178,6 +178,11 @@ h5{
     grid-column: 2/4;
 }
 /* Product display-sales */
+.sales-title-mobile{
+    visibility: hidden;
+    width: 0%;
+    height: 0%;
+}
 .sales{
     transform: scale(0.85);
     transform-origin: center;
@@ -411,7 +416,7 @@ h5{
 }
 /* Homepage hero banner-mobile */
 .hero-banner{
-    height: 100vh;
+    height: 80vh;
     width: 100vw;
 }
 .hero-banner-image{
@@ -453,7 +458,8 @@ h5{
 }
 .newArrivals-image-2{
     overflow: hidden;
-    height: 300vh;
+    height: 100%;
+    width: 100%;
 }
 .newArrivals-image-2 img{
     width: 100%;
@@ -534,6 +540,16 @@ h5{
     display: none;
 }
 /* Product display-sales */
+.sales-title-mobile{
+    visibility: visible;
+    width: 100%;
+    height: 100%;
+}
+.sales-title-mobile h2{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
 .sales{
     display: flex;
     flex-direction: column;
@@ -559,7 +575,7 @@ h5{
     justify-content: center;
 }
 .sales-image-1{
-    margin-top: 10px;
+    margin-top: 20px;
     width: 100%;
     height: 100%;
     overflow: hidden;
@@ -570,11 +586,18 @@ h5{
     object-fit: cover;
 }
 .sale-products{
+    height: 50%;
     display: flex;
     flex-direction: row;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+.sale-products > * + *{
+    margin-left: 15px;
 }
 .sales-product-1{
-    width: 100%;
+    flex: 0 0 auto;
+    width: 45%;
     height: 100%;
     overflow: hidden;
 }
@@ -585,7 +608,8 @@ h5{
     object-position: top;
 }
 .sales-product-2{
-    width: 100%;
+    flex: 0 0 auto;
+    width: 45%;
     height: 100%;
     overflow: hidden;
 }
@@ -596,7 +620,8 @@ h5{
     object-position: top;
 }
 .sales-product-3{
-    width: 100%;
+    flex: 0 0 auto;
+    width: 45%;
     height: 100%;
     overflow: hidden;
 }
@@ -607,7 +632,8 @@ h5{
     object-position: top;
 }
 .sales-product-4{
-    width: 100%;
+    flex: 0 0 auto;
+    width: 45%;
     height: 100%;
     overflow: hidden;
 }
