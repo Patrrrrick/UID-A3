@@ -90,3 +90,11 @@
     height: auto;
     width: auto;
 }
+
+.color {
+    align-items: center;
+}
+.colorline {
+    width: auto;
+    height: auto;
+}
