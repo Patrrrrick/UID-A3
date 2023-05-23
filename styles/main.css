@@ -300,7 +300,7 @@ h5{
 }
 /* Categories area */
 .categories{
-    margin-top: 40%;
+    margin-top: 25%;
     display: grid;
     grid-template-columns: 1182fr 455fr 274fr;
     grid-template-rows: 210fr 123fr 546fr;
