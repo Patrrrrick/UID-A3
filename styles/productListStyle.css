@@ -15,7 +15,6 @@
     display: flex;
     font-style: bold;
     text-align: center;  
-    background-position: 50% 15%;  
     overflow: hidden;
 }
 .coverImage img {
