@@ -1,14 +1,19 @@
 .navbarContainer {
     width: 100%;
-    height: 20px;
+    height: auto;
     background-color: #e71515;
     display: flex;
-    justify-content: space-between;
+
 
 }
 .leftsideNav {
-    display: inline-block;
+    align-items: center;
+    margin-left: 0;
+
 }
 .leftText {
     display: inline-block;
+    margin-left: 15px;
+    text-align: center;
+
 }
