@@ -1,4 +1,14 @@
 .navbarContainer {
     width: 100%;
-    height: auto;
+    height: 20px;
+    background-color: #e71515;
+    display: flex;
+    justify-content: space-between;
+
+}
+.leftsideNav {
+    display: inline-block;
+}
+.leftText {
+    display: inline-block;
 }
