@@ -856,30 +856,46 @@ h5{
     height: 100%;
     display: flex;
     flex-direction: column;
+    position: relative;
     background-color: #5C3247;
+    position: relative;
 }
 .footer-payments{
     display: none;
 }
+.footer-payments > * + *{
+    margin-top: 10%;
+}
 .footer-terms{
-    display: flex;
-    flex-direction: column;
-    margin-right: auto;
+    margin-left: 10%;
     margin-top: 5%;
     color: white;
     font-family: var(--font-secondary);
     font-size: var(--text-md);
 }
+.footer-terms p{
+    text-align: left;
+}
+.footer-terms >*+*{
+    margin-top: 5%;
+}
 .social-media{
-    margin-top: 50%;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    left: 10%;
+
 }
 .social-media > * + *{
-    margin-left: 10%;
+    margin-left: 2%;
 }
 .footer-contacts{
-    margin-top: 5%;
+    margin-top: 25%;
+    margin-left: 10%;
+    margin-bottom: 5%;
     display: flex;
     flex-direction: column;
+    width: 60%;
     color: white;
     font-family: var(--font-secondary);
 }
@@ -889,5 +905,4 @@ h5{
 .footer-contacts > * + *{
     margin-top: 5%;
 }
-
 }
