@@ -850,28 +850,22 @@ h5{
     width: 100%;
     text-align: center;
 }
+/* Style for footer-mobile */
 .footer{
     margin-top: 2px;
-    flex-wrap: wrap;
     height: 100%;
     display: flex;
-    flex-direction: row;
-    position: relative;
+    flex-direction: column;
     background-color: #5C3247;
 }
 .footer-payments{
-    margin-left: 5%;
-    margin-top: 5%;
-    display: flex;
-    flex-direction: column;
-}
-.footer-payments > * + *{
-    margin-top: 10%;
+    display: none;
 }
 .footer-terms{
-    margin-left: 18%;
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
     margin-top: 5%;
-    text-align: center;
     color: white;
     font-family: var(--font-secondary);
     font-size: var(--text-md);
@@ -884,10 +878,8 @@ h5{
 }
 .footer-contacts{
     margin-top: 5%;
-    margin-left: 13%;
     display: flex;
     flex-direction: column;
-    width: 25%;
     color: white;
     font-family: var(--font-secondary);
 }
