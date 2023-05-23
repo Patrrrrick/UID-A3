@@ -13,16 +13,25 @@
     align-content: center;
     justify-content: center;
     display: flex;
-    background-image: url(/Users/ryanwang/Desktop/project3/UID-A3/images/product-list/Esmaee-Rosewood-Blouse-A-1.webp);
     font-style: bold;
     text-align: center;  
     background-position: 50% 15%;  
+    overflow: hidden;
+}
+.coverImage img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    object-position:50% 15%;
+
+
 }
 .coverImage h2 {
     flex-grow: 1;
     padding: 10px;
     font-style: bold;
     color: aliceblue;
+    position: absolute;
     
 }
 .tab-bar {
