@@ -85,3 +85,8 @@
     display: flex;
     justify-content: space-between;
 }
+
+.pricecontainer img {
+    height: auto;
+    width: auto;
+}
