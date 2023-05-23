@@ -20,6 +20,7 @@
 .confirmation-page{
     display: flex;
     flex-direction: column;
+    width: 100vw;
 }
 /* Style for header and page title */
 .header{
