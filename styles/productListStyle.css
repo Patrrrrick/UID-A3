@@ -79,3 +79,7 @@
 .Priceandlike {
     display: inline-block;
 }
+.pricecontainer {
+display: flex;
+justify-content: space-between;
+}
