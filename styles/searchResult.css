@@ -1,0 +1,12 @@
+.body{
+    display: flex;
+    flex-direction: column;
+}
+/* Style for search title */
+.search-title{
+
+}
+/* Style for search result body */
+.searchResult{
+
+}
