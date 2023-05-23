@@ -16,6 +16,8 @@
     display: inline-block;
     margin-left: 15px;
     text-align: center;
+    font-size: var(--text-md);
+    font-family: var(--font-primary);
 }
 
 .rightsideNav {
