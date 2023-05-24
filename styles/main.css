@@ -429,42 +429,51 @@ h5{
 /* Style for footer */
 .footer{
     margin-top: 2px;
-    flex-wrap: wrap;
     height: 100%;
-    display: flex;
-    flex-direction: row;
-    position: relative;
+    display: grid;
+    grid-template-columns: 640fr 640fr 640fr;
     background-color: #5C3247;
 }
 .footer-payments{
-    margin-left: 5%;
-    margin-top: 5%;
+    margin-top: 10%;
+    grid-column: 1/2;
     display: flex;
     flex-direction: column;
+    transform: scale(0.5);
+    transform-origin: top;
+}
+.footer-payments img{
+    width: 80%;
+    height: 80%;
 }
 .footer-payments > * + *{
-    margin-top: 10%;
+    margin-top: 20%;
 }
 .footer-terms{
-    margin-left: 18%;
-    margin-top: 5%;
+    margin-top: 10%;
+    grid-column: 2/3;
     text-align: center;
     color: white;
     font-family: var(--font-secondary);
     font-size: var(--text-md);
 }
+.footer-terms > *+*{
+    margin-top: 5%;
+}
 .social-media{
-    margin-top: 50%;
+    margin-top: 35%;
 }
 .social-media > * + *{
     margin-left: 10%;
 }
 .footer-contacts{
-    margin-top: 5%;
-    margin-left: 13%;
+    justify-self: center;
+    margin-top: 10%;
+    text-align: left;
+    grid-column: 3/4;
     display: flex;
     flex-direction: column;
-    width: 25%;
+    width: 80%;
     color: white;
     font-family: var(--font-secondary);
 }
@@ -475,7 +484,17 @@ h5{
     margin-top: 5%;
 }
 
-/* Style for mobile */
+
+
+
+
+
+
+
+
+
+
+/* Style for mobile --------------------------------------------------------------------------------------------------------------------------------------------------------*/
 @media screen and (max-width:850px) {   
 html {
     box-sizing: border-box;
@@ -867,49 +886,62 @@ body{
 /* Style for footer-mobile */
 .footer{
     margin-top: 2px;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    position: relative;
+    height: 70vh;
+    display: grid;
+    grid-template-rows: 230fr 240fr 80fr;
     background-color: #5C3247;
+    justify-content: center;
     position: relative;
 }
 .footer-payments{
-    display: none;
+    display: flex;
+    flex-direction: row;
+    grid-row: 3/4;
+    grid-column: 1/2;
+    transform: scale(0.45);
+    transform-origin: top;
+    align-items: center;
+    position: absolute;
+    top: 20%;
+    left: 5%;
+}
+.footer-payments img{
+    margin-top: 0;
+    width: 80%;
+    height: 80%;
 }
 .footer-payments > * + *{
-    margin-top: 10%;
+    margin-left: 10%;
 }
 .footer-terms{
-    margin-left: 10%;
-    margin-top: 5%;
+    margin-left: 20%;
+    margin-top: 10%;
+    grid-row: 1/2;
+    grid-column: 1/2;
+    text-align: left;
     color: white;
     font-family: var(--font-secondary);
     font-size: var(--text-md);
 }
-.footer-terms p{
-    text-align: left;
-}
-.footer-terms >*+*{
+.footer-terms > *+*{
     margin-top: 5%;
 }
 .social-media{
-    position: absolute;
-    display: flex;
-    flex-direction: row;
-    left: 10%;
-
+    margin-top: 20%;
 }
 .social-media > * + *{
-    margin-left: 2%;
+    margin-left: 10%;
 }
 .footer-contacts{
-    margin-top: 25%;
-    margin-left: 10%;
-    margin-bottom: 5%;
+    margin-left: 20%;
+    justify-self: center;
+    margin-top: 10%;
+    text-align: left;
+    grid-row: 2/3;
+    grid-column: 1/2;
     display: flex;
     flex-direction: column;
-    width: 60%;
+    width: 80%;
     color: white;
     font-family: var(--font-secondary);
 }
