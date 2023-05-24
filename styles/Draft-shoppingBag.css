@@ -1,8 +1,8 @@
 .btn-3{
     color: white;
     background-color: #B95084;
-    width: 500PX;
-    height: 50PX;
+    width: 430px;
+    height: 50px;
     font-size: var(--text-md);
     font-family: var(--font-secondary);
     display: flex;
@@ -12,8 +12,8 @@
 
 .bag{
     margin-left: auto;
-    border: 1px solid black;
-    width: 25vw;
+    border: 0.5px solid black;
+    width: 28vw;
     height: 100vh;
     position: relative;
     display: flex;
@@ -46,7 +46,7 @@
 .shopping-bag-title h5{
     position: absolute;
     top: 1.5vh;
-    left: 90%;
+    left: 88%;
 }
 .products{
     display: flex;
@@ -103,7 +103,7 @@
 }
 .bag-info{
     position: absolute;
-    top: 88%;
+    top: 85%;
     background-color: rgba(225, 191, 208, 0.49);
     width: 100%;
     height: 41px;
@@ -128,10 +128,10 @@
     display: flex;
     flex-direction: row;
     position: absolute;
-    top: 92.5%;
+    top: 91%;
 }
 .bag-subtotal > * + *{
-    margin-left: 350px;
+    margin-left: 280px;
 }
 .price{
     font-family: var(--font-primary);
