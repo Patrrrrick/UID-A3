@@ -72,7 +72,7 @@ html {
     object-fit: cover;
 }
 /* Hide style for mobile description */
-.mobile-description{
+.mobile-information{
     display: none;
 }
 /* Product display-description */
@@ -278,6 +278,10 @@ html {
     }
     .thumbnails{
         display: none;
+    }
+    /* Style for mobile description */
+    .mobile-information{
+        display: block;
     }
     .product-information{
 
