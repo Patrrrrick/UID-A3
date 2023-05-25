@@ -71,6 +71,10 @@ html {
     height: 100%;
     object-fit: cover;
 }
+/* Hide style for mobile description */
+.mobile-description{
+    display: none;
+}
 /* Product display-description */
 .product-information{
     margin-top: 5vh;
@@ -253,5 +257,35 @@ html {
 
 
 @media screen and (max-width:1185px) {
-    
+    html {
+        box-sizing: border-box;
+      }
+      *, *:before, *:after {
+        box-sizing: inherit;
+      }
+    .product-details{
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+    }
+    /* Navigation Bar */
+    .nav-bar{
+        display: none;
+    }
+    /* Style for product dispay-mobile */
+    .product-display{
+
+    }
+    .thumbnails{
+        display: none;
+    }
+    .product-information{
+
+    }
+    .recommendation{
+
+    }
+    .product-description{
+        display: none;
+    }
 }
