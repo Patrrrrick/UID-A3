@@ -77,7 +77,7 @@ html {
     grid-column: 2/3;
     grid-row: 2/3;
     width: 506px;
-    margin-left: 300px;
+    margin-left: auto;
     display: flex;
     flex-direction: column;
 }
@@ -157,6 +157,11 @@ html {
     color: #FF0783;
     display: inline;
 }
+
+
+
+
+
 /* Product description area */
 .product-description{
     left: 55%;
@@ -167,6 +172,7 @@ html {
     position: fixed;
     display: flex;
     flex-direction: column;
+    z-index: 999;
 }
 .product-subtext{
     margin-top: 30px;
@@ -241,4 +247,11 @@ html {
     height: 52px;
     justify-content: center;
     align-items: center;
+}
+
+
+
+
+@media screen and (max-width:1185px) {
+    
 }
