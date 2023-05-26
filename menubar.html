@@ -13,17 +13,83 @@
     <div class="navbarContainer">
         <span><img class="logo"src="images/checkout/logo.png" alt="brandlogo"></span>
         <span class="leftsideNav">
-            <p class="leftText">SHOP</p>
-            <p class="leftText">NEW</p>
-            <p class="leftText">SALE</p>
-            <p class="leftText">ABOUT</p>
+            <p class="leftText" onmouseover="showMenu('shop')">SHOP</p>
+            <p class="leftText" onmouseover="showMenu('new')">NEW</p>
+            <p class="leftText" onmouseover="showMenu('sale')">SALE</p>
+            <p class="leftText" onmouseover="showMenu('about')">ABOUT</p>
         </span>
         <span class="rightsideNav">
             <img class="rightICON" src="images/icons/search.svg" alt="search">
              <img class="rightICON" src="images/icons/account.svg" alt="account">
-            <img class="rightICON" src="images/icons/heart.svg" alt="wishlish">
+            <img class="rightICON" src="images/icons/wishlist.svg" alt="wishlish">
             <img class="rightICON" src="images/icons/bag.svg" alt="bag">
         </span>
+        </div>
+        <div class="dropDownContent" >
+            <div id="dropMenu" class="menu" onmouseover="showMenu('shop')" onmouseout="hideMenu('shop')">
+                <div class="menuItems">
+                    <img src="images/product-list/Esmaee-Momento-Shacket-1.webp" alt="Esmaee-Momento-Shacket">
+                    <p class="imageName">NEW ARRIVALS</p>
+                </div>
+                <div class="menuItems">
+                    <img src="images/homepages/Adorne-Colby-Dress-Multi-A-1.webp" alt="Adorne-Colby-Dress-Multi">
+                    <p class="imageName">SALES</p>
+                </div>
+                <div class="menuItems">
+                    <img src="images/menu-bar/Montaigne_web_JacquiTurk280.webp" alt="Montaigne_web_JacquiTurk">
+                    <p class="imageName">BEST SELLERS</p>
+                </div>
+                <div class="menuItems">
+                    <img src="images/menu-bar/Montaigne_web_JacquiTurk280.webp" alt="Montaigne_web_JacquiTurk">
+                    <p class="imageName">CLOTHING</p> //need picture
+                </div>
+                <div class="menuItems">
+                    <img src="images/product-list/Adorne-Floral-Sequin-Hoops-Hot-Pink-1.webp" alt="Adorne-Floral-Sequin-Hoops-Hot-Pink">
+                    <p class="imageName">JEWELLERY</p>
+                </div>
+                <div class="menuItems">
+                    <img src="images/homepages/Categories/Adorne-Fern-Clutch-A.webp" alt="Adorne-Fern-Clutch">
+                    <p class="imageName">ACCESSOIRES</p>
+                </div>
+                <div class="menuItems">
+                    <img src="images/menu-bar/georgie-foldover-cross-body-bag-nude-164739_1200x.webp" alt="georgie-foldover-cross-body-bag-nude">
+                    <p class="imageName">OTHER</p>
+                </div>
+                <div class="menuItems">
+                    <img src="images/homepages/Categories/Adorne-Crossbody-Mini-Satchel-Bag-Tan.webp" alt="Adorne-Crossbody-Mini-Satchel-Bag">
+                    <p class="imageName">BAGS</p>
+                </div>
+                <div class="menuItems">
+                    <img src="images/menu-bar/peppermint_grove-coconut_lime_room_diffuser_350ml.1559890694-600x600.jpg" alt="peppermint_grove-coconut_lime_room_diffuser">
+                    <p class="imageName">GIFTS</p>
+                </div>
+                <div class="menuItems">
+                    <img src="images/homepages/Categories/Tan-Pons-b.webp" alt="Tan-Pons-b">
+                    <p class="imageName">SHOES</p>
+                </div>
+
+
+   
+            </div>
+
+
+            <div id="dropMenu" class="menu" onmouseover="showMenu('new')" onmouseout="hideMenu('new')">
+
+            </div>
+
+            <div id="dropMenu" class="menu" onmouseover="showMenu('sale')" onmouseout="hideMenu('sale')">
+
+            </div>
+            
+            <div id="dropMenu" class="menu" onmouseover="showMenu('about')" onmouseout="hideMenu('about')">
+
+            </div>
+
+
+
+
+
+        </div>
     </div>
 </body>
 </html>
