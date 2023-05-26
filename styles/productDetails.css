@@ -261,8 +261,8 @@ html {
         box-sizing: inherit;
       }
     .btn{
-        width: 360px;
-        height: 55px;
+        width: 85%;
+        height: 15%;
         color: white;
         background-color: #B95084;
         font-size: var(--text-md);
@@ -309,7 +309,7 @@ html {
     }
     /* Style for mobile information*/
     .mobile-information{
-        height: 30vh;
+        height: 35vh;
         display: block;
         display: flex;
         flex-direction: column;
