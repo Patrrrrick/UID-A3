@@ -426,7 +426,7 @@ input::placeholder{
     }
 
     .payment-title{
-        margin-top: 25vh;
+        margin-top: 5vh;
         margin-right: auto;
         font-family: var(--font-secondary);
         font-size: var(--text-md);
