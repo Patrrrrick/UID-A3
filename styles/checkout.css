@@ -346,6 +346,13 @@ input::placeholder{
     *, *:before, *:after {
         box-sizing: inherit;
     }
+    .checkout-body{
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        align-items: center;
+        align-items: center;
+    }
     /* Style for header-mobile */
     .header{
         display: none;
@@ -359,96 +366,45 @@ input::placeholder{
     }
     /* Style for mobile forms */
     .forms{
-        margin-left: 10%;
-        grid-column: 2/3;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        margin-left: 0;
+        width: 100vw;
     }
-    .forms-title p{
-        font-family: var(--font-secondary);
-        font-size: var(--text-lg);
-    }
-    
-    .forms-login{
-        margin-top: 1vh;
-        display: flex;
-        flex-direction: row;
-        transform: scale(0.95);   
-    }
-    .forms-login > * + *{
-        margin-left: 10px;
-    }
-    
     .cut-off-line{
-        display: grid;
-        grid-template-columns: 245fr 18fr 245fr;
-        margin-top: 1vh;
-        justify-content: center;
-        align-items: center;
-    }
-    .cut-off-line p{
-        grid-column: 2/3;
-        font-family: var(--font-secondary);
-        font-size: var(--text-sm);
-    }
-    #line-1{
-        grid-column: 1/2;
-    }
-    #line-2{
-        grid-column: 3/4;
-    }
-    
-    .tips{
-        margin-top: 1vh;
-        font-family: var(--font-secondary);
-        font-size: var(--text-md);
-        color: rgba(0, 0, 0, 0.6);
-    }
-    .forms-body-title{
-        margin-top: 3vh;
-        margin-left: 8%;
-        font-family: var(--font-secondary);
-        font-size: var(--text-md);
-        margin-right: auto;
-    }
+        width: 95vw;
+    }  
     .forms-body{
-        margin-top: 1vh;
         display: flex;
         flex-direction: column;
-    }
-    .forms-body > * + *{
-        margin-top: 5px;
-    }
-    .form-bracket{
-        border: 1.25px solid rgba(0, 0, 0, 0.4);
-        height: 50px;
-    }
-    input::placeholder{
-        padding-left: 5px;
-        font-family: var(--font-secondary);
-        font-size: var(--text-md);
-        color: rgba(0, 0, 0, 0.4);
+        align-items: center;
+    } 
+    .forms-body-title{
+        margin-left: 5%;
     }
     #First-name{
-        width: 500px;
+        width: 90vw;
     }
     #Last-name{
-        width: 500px;
+        width: 90vw;
     }
     #Country-Region{
-        width: 500px;
+        width: 90vw;
     }
     #Street-Address{
-        width: 370px;
+        width: 69vw;
     }
     #Postcode{
-        width: 120px;
+        width: 20vw;
     }
     #Suburb{
-        width: 225px;
+        width: 44vw;
     }
     #State{
-        width: 265px;
+        width: 45vw;
+    }
+    #Email{
+        width: 90vw;
+    }
+    #Phone{
+        width: 90vw;
     }
 }
