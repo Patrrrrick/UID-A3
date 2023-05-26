@@ -338,7 +338,7 @@ input::placeholder{
 
 
 
-
+/* Style for mobile version------------------------------------------------------------------------------------------------------------------------ */
 @media screen and (max-width:850px) {
     html {
         box-sizing: border-box;
@@ -360,6 +360,10 @@ input::placeholder{
     .mobile-header{
         display: block;
     }
+    /* Style for the logo */
+    .logo-title img{
+        transform: scale(1);
+    }
     /* Hide shopping bag for mobile */
     .shopping-bag{
         display: none;
@@ -368,6 +372,12 @@ input::placeholder{
     .forms{
         margin-left: 0;
         width: 100vw;
+    }
+    .forms-login{
+        transform: scale(0.9);   
+    }
+    .forms-login > * + *{
+        margin-left: 10px;
     }
     .cut-off-line{
         width: 95vw;
@@ -406,5 +416,36 @@ input::placeholder{
     }
     #Phone{
         width: 90vw;
+    }
+    /* Style for body-payments-mobile*/
+    .payments{
+        margin-top: 5vh;
+        margin-left: 0;
+        margin-right: 0;
+        width: 90vw;
+    }
+
+    .payment-title{
+        margin-top: 25vh;
+        margin-right: auto;
+        font-family: var(--font-secondary);
+        font-size: var(--text-md);
+    }
+    .payment-methods{
+        width: 90vw;
+        transform: scale(0.93);
+    }
+    .payment-methods > * + *{
+        margin-left: 5px;
+    }
+    .justify-btn{
+        margin-top: 0.5vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #btn-placeorder{
+        width: 100%;
+        height: 5vh;
     }
 }
