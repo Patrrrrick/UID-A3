@@ -156,12 +156,23 @@
     .bag-info{
         width: 100vw;
     }
+    .shopping-bag-title h5{
+        left: 80%;
+    }
     .products{
         width: 100%;
     }
     .shopping-bag{
+        width: 100%;
         margin-left: 5%;
         margin-right: 0%;
+    }
+    .add-quantity{
+        padding-right: 80px;
+        margin-left: 70px;
+        margin-top: auto;
+        display: flex;
+        flex-direction: column;
     }
     .bag-info{
         width: 100%;
