@@ -1,19 +1,8 @@
-.btn-3{
-    color: white;
-    background-color: #B95084;
-    width: 430px;
-    height: 50px;
-    font-size: var(--text-md);
-    font-family: var(--font-secondary);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 .bag{
     margin-left: auto;
     border: 0.5px solid black;
-    width: 28vw;
+    width: 500px;
     height: 100vh;
     position: relative;
     display: flex;
@@ -144,4 +133,44 @@
 .checkout-btn{
     position: absolute;
     bottom: 1%;
+    width: 100%;    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#checkout-btn-1{
+    width: 430px;
+    height: 50px;
+}
+
+
+
+
+@media screen and (max-width:510px){
+    .bag{
+        height: 100vh;
+        width: 100vw;
+        border: none;
+        overflow: hidden;
+    }
+    .bag-info{
+        width: 100vw;
+    }
+    .products{
+        width: 100%;
+    }
+    .shopping-bag{
+        margin-left: 5%;
+        margin-right: 0%;
+    }
+    .bag-info{
+        width: 100%;
+    }
+    .checkout-btn{
+
+    }
+    #checkout-btn-1{
+        width: 95%;
+        height: 50px;
+    }
 }

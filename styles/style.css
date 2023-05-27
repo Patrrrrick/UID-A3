@@ -73,7 +73,16 @@
     justify-content: center;
     align-items: center;
 }
-
+/* Checkout btn */
+.btn-7{
+    color: white;
+    background-color: #B95084;
+    font-size: var(--text-md);
+    font-family: var(--font-secondary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 /* Style for price */
 .price{
     font-family: var(--font-primary);
