@@ -1,3 +1,99 @@
 @import url(colour.css);
 @import url(typography.css);
 @import url(https://use.typekit.net/kje5clb.css);
+
+/* Style for button */
+/* btn in homepage */
+.btn-1{
+    width: 300px;
+    height: 88px;
+    border: 1px solid black;
+    justify-self: center;
+    line-height: 88px;
+}
+.btn-1 > p{
+    font-family: var(--font-secondary);
+    font-size: var(--text-lg);
+    text-align: center;
+    color: black;
+    font-style: light;
+    padding-top: auto;
+    padding-bottom: auto;
+}
+/* add to bag btn */
+.btn-2{
+    margin-top: 5px;
+    display: flex;
+    text-align: center;
+    border: 1px solid black;
+    width: 430px;
+    height: 52px;
+    justify-content: center;
+    align-items: center;
+}
+/* place order btn */
+.btn-3{
+    width: 85%;
+    height: 15%;
+    color: white;
+    background-color: #B95084;
+    font-size: var(--text-md);
+    font-family: var(--font-secondary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-4{
+    color: white;
+    background-color: #B95084;
+    font-size: var(--text-md);
+    font-family: var(--font-secondary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* back to home btn */
+.btn-5{
+    color: white;
+    background-color: var(--colour-secondary);
+    font-size: var(--text-md);
+    font-family: var(--font-secondary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* login btn */
+.btn-6{
+    border: 1px solid var(--colour-btnBorder);
+    width: 200PX;
+    height: 50PX;
+    font-size: var(--text-md);
+    font-family: var(--font-secondary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Style for price */
+.price{
+    font-family: var(--font-primary);
+    font-size: var(--text-md);
+    font-style: normal;
+    text-align: center;
+}
+.price-origin{
+    font-family: var(--font-primary);
+    font-size: var(--text-md);
+    font-style: normal;
+    color: var(--colour-originalPrice);
+    text-decoration: line-through;
+    display: inline;
+}
+.price-on-sale{
+    font-family: var(--font-primary);
+    font-size: var(--text-md);
+    font-style: normal;
+    color: var(--colour-discount);
+    display: inline;
+
+}

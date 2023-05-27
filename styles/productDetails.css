@@ -32,7 +32,7 @@ html {
     margin-left: auto;
 }
 .nav-product{
-    color: #B95084;
+    color: var(--colour-primary);
 }
 /* Product display area */
 .product-display{
@@ -155,7 +155,7 @@ html {
     display: inline;
 }
 .price-on-sale{
-    color: #FF0783;
+    color: var(--colour-discount);
     display: inline;
 }
 
@@ -236,21 +236,9 @@ html {
     flex-direction: column;
 }
 .shipping-info{
-    color: #B95084;
+    color: var(--colour-primary);
     font-size: var(--text-sm);
 }
-.add-to-bag-btn{
-    margin-top: 5px;
-    display: flex;
-    text-align: center;
-    border: 1px solid black;
-    width: 430px;
-    height: 52px;
-    justify-content: center;
-    align-items: center;
-}
-
-
 
 /* Style for mobile version----------------------------------------------------------------------------------------------------------------------------------------------- */
 @media screen and (max-width:1185px) {
@@ -260,17 +248,6 @@ html {
       *, *:before, *:after {
         box-sizing: inherit;
       }
-    .btn{
-        width: 85%;
-        height: 15%;
-        color: white;
-        background-color: #B95084;
-        font-size: var(--text-md);
-        font-family: var(--font-secondary);
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
     /* Style for overall mobile page */
     .product-details{
         display: flex;
