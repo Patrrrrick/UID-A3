@@ -1,6 +1,8 @@
 :root{
     --colour-primary:  #B95084;
+    --colour-primaryHover: #a73c71;
     --colour-secondary: #F29F91;
+    --colour-secondaryHover: #d88374;
     --colour-discount: #FF0783;
     --colour-saleBar: rgba(185, 80, 132, 0.66);
     --colour-originalPrice: #BABABA;
