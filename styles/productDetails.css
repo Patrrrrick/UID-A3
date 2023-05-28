@@ -230,6 +230,9 @@ html {
     font-size: var(--text-sm);
 }
 
+
+
+
 /* Style for mobile version----------------------------------------------------------------------------------------------------------------------------------------------- */
 @media screen and (max-width:1185px) {
     html {
@@ -344,6 +347,10 @@ html {
         border: 1px solid #707070;
         align-self: center;
         transition: all 0.2s;
+        display: none;
+    }
+    .dropdown-title:hover{
+        display: block;
     }
     .dropdown-size-1 li{
         margin-top: 10px;
