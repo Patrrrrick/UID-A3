@@ -195,13 +195,13 @@ input::placeholder{
     width: 500px;
 }
 #Street-Address{
-    width: 370px;
+    width: 375px;
 }
 #Postcode{
     width: 120px;
 }
 #Suburb{
-    width: 225px;
+    width: 230px;
 }
 #State{
     width: 265px;
@@ -296,7 +296,7 @@ input::placeholder{
     justify-content: center;
     align-items: center;
     margin-top: 0.5vh;
-    transform: scale(0.85);
+    transform: scale(0.8);
 }
 .payment-methods > * + *{
     margin-left: 5px;
@@ -429,9 +429,5 @@ input::placeholder{
         display: flex;
         justify-content: center;
         align-items: center;
-    }
-    #btn-placeorder{
-        width: 100%;
-        height: 5vh;
     }
 }
