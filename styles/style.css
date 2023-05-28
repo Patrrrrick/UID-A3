@@ -98,3 +98,14 @@
     display: inline;
 
 }
+/* Style for size btn */
+.size{
+    font-family: var(--font-secondary);
+    font-size: var(--text-md);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 52px;
+    height: 52px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}

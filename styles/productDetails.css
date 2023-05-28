@@ -4,16 +4,6 @@ html {
   *, *:before, *:after {
     box-sizing: inherit;
   }
-.size{
-    font-family: var(--font-secondary);
-    font-size: var(--text-md);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 52px;
-    height: 52px;
-    border: 1px solid rgba(0, 0, 0, 0.2);
-}
 /* Product details area */
 .product-details{
     display: grid;
@@ -321,22 +311,42 @@ html {
         display: flex;
         flex-direction: row;
     }
-    .size-picker{
+    /* Style for mobile size dropdown */
+    .dropdown-title{
         width: 310px;
         height: 50px;
         border: 1px solid #707070;
+        color: #707070;
         margin-right: 5%;
         position: relative;
-        display: inline-block;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        font-family: var(--font-secondary);
+        font-size: var(--text-md);
     }
-    .size-picker:hover .drop-down-size-1{
-        display: block;
+    .dropdown-title span{
+        margin-left: 3%;
     }
-    .drop-down-size-1{
-        display: none;
+    .dropdown-title img{
+        margin-left: 180px;
+    }
+    .dropdown-size-1{
+        margin-right: 5%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 310px;
+        height: 150px;
         position: absolute;
         z-index: 1;
-        min-width: 120px;
+        background-color: white;
+        border: 1px solid #707070;
+        align-self: center;
+    }
+    .dropdown-size-1 li{
+        margin-left: 8px;
+        margin-top: 8px;
     }
 
     .mobile-size img{
