@@ -262,9 +262,11 @@ h5{
     object-fit: cover;
     object-position: top;
 }
+
 .sale-products > .btn{
     grid-column: 1/3;
     grid-row: 3/4;
+    justify-self: center;
 }
 /* Categories area */
 .categories{
