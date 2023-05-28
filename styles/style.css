@@ -4,6 +4,22 @@
 
 /* Style for button */
 /* btn in homepage */
+.btn{
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    font-family: var(--font-secondary);
+    font-size: var(--text-lg);  
+    text-decoration: none;
+}
+.btn-homepage{
+    color: black;
+    width: 300px;
+    height: 88px;
+    border: 1px solid black;
+}
 .btn-1{
     width: 300px;
     height: 88px;
