@@ -102,14 +102,14 @@
 .color {
     align-items: center;
 }
-.colorline {
-    width: auto;
-    height: auto;
-}
+
+/* color icon resize and alignment*/
 .color {
     height: 7px;
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
 }
 
 .color img {
