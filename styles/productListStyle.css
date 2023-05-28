@@ -85,6 +85,7 @@
     margin-bottom: 5px;
 }
 
+/* price line and like icon */
 .Priceandlike {
     display: inline-block;
     margin-bottom: 5px;
@@ -92,15 +93,13 @@
 .pricecontainer {
     display: flex;
     justify-content: space-between;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .pricecontainer img {
     height: auto;
     width: auto;
-}
-
-.color {
-    align-items: center;
 }
 
 /* color icon resize and alignment*/
