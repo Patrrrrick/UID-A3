@@ -209,7 +209,7 @@
 .confirmation-footer > * + *{
     margin-left: 2vw;
 }
-.confirmation-footer div{
+.confirmation-footer a{
     width: 250px;
     height: 60px;
 }
