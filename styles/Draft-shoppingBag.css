@@ -138,10 +138,6 @@
     flex-direction: row;
     justify-content: center;
 }
-#checkout-btn-1{
-    width: 430px;
-    height: 50px;
-}
 
 
 
@@ -176,12 +172,5 @@
     }
     .bag-info{
         width: 100%;
-    }
-    .checkout-btn{
-
-    }
-    #checkout-btn-1{
-        width: 95%;
-        height: 50px;
     }
 }
