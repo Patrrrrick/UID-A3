@@ -343,14 +343,11 @@ html {
         background-color: white;
         border: 1px solid #707070;
         align-self: center;
+        transition: all 0.2s;
     }
     .dropdown-size-1 li{
-        margin-left: 8px;
-        margin-top: 8px;
-    }
-
-    .mobile-size img{
-        transform: scale(1.5);
+        margin-top: 10px;
+        margin-left: 20px;
     }
     .product-information{
 
