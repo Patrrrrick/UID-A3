@@ -67,6 +67,7 @@
 
 .column1 {
     height: 100%;
+    overflow: hidden;
 }
 
 .column2 {
@@ -74,7 +75,7 @@
 }
 
 .column1 img {
-    height: 50%;
+    height: 100%;
     width: 100%;
 
 }
