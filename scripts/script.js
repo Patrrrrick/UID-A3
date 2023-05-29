@@ -34,3 +34,13 @@ thumbnails.forEach(function(thumbnail) {
       selectedThumbnail = thumbnail;
     });
 });
+// Change product colour
+
+let colourGreen = document.getElementById("colourGreen");
+let colourWhite = document.getElementById("colourWhite");
+function changeColourGreen(){
+    window.location.href = "productDetails-1.html";
+}
+function changeColourWhite(){
+    window.location.href = "productDetails-1-white.html";
+}
