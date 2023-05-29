@@ -50,7 +50,7 @@
     width: 100%;
     object-fit: cover;
 }
-.menuItems p {
+.imageName {
     flex-grow: 1;
     padding: 10px;
     font-style: bold;
@@ -65,33 +65,4 @@
     justify-content: space-around;
 }
 
-.column1 {
-    height: 100%;
-    overflow: hidden;
-}
 
-.column2 {
-    height: 100%
-}
-
-.column1 img {
-    height: 100%;
-    width: 100%;
-
-}
-
-#image1 {
-    height: 70%;
-    
-    object-fit: cover;
-}
-#image2{
-    height: 30%;
-    object-fit: cover;
-}
-
-
-.itemSecond {
-    width:120px;
-    height: 150px;
-}
