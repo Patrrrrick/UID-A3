@@ -59,10 +59,21 @@
 
 }
 .menu1 {
-    width:90%;
+    width:70%;
     height:300px;
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
+
+.column1 {
+    height: 100%;
+    overflow: hidden;
+}
+
+.column2 {
+    height: 100%
+}
+
 
 
