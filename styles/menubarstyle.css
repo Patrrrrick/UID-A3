@@ -50,19 +50,21 @@
     width: 100%;
     object-fit: cover;
 }
-.menuItems p {
+.imageName {
     flex-grow: 1;
     padding: 10px;
     font-style: bold;
     color: aliceblue;
     position: absolute;
-
 }
 .menu1 {
-    width:100%;
+    width:70%;
     height:300px;
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .column1 {
@@ -74,33 +76,5 @@
     height: 100%
 }
 
-.column1 img {
-    height: 100%;
-    width: 100%;
 
-}
 
-#image1 {
-    height: 70%;
-    
-    object-fit: cover;
-}
-#image2{
-    height: 30%;
-    object-fit: cover;
-}
-
-#image3{
-    width: 100%;
-    height: 30%;
-    object-fit: cover;
-    overflow: hidden;
-}
-.itemSecond {
-    width:120px;
-    height: 150px;
-}
-.itemLast {
-    width: 140px;
-    height: 150px;
-}
