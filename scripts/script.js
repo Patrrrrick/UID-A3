@@ -19,10 +19,18 @@ infoBtn.addEventListener('click', function() {
 // JS for thumbnails exchange
 let thumbnails = document.querySelectorAll(".thumbnail");
 let majorImage = document.getElementById("majorImage");
+let selectedThumbnail = null;
     // Add click event for each thumbnail
 thumbnails.forEach(function(thumbnail) {
   thumbnail.addEventListener("click", function() {
     var imageLink = thumbnail.getAttribute("src");
     majorImage.setAttribute("src", imageLink);
-  });
+    if (selectedThumbnail) {
+        // If thumbnail is not selected then there will be no border
+        selectedThumbnail.style.border = "none";
+      }
+      thumbnail.style.border = "1.5px solid black";
+      //update states
+      selectedThumbnail = thumbnail;
+    });
 });
