@@ -313,6 +313,10 @@ html {
         flex-direction: row;
     }
     /* Style for mobile size dropdown */
+    .size-picker{
+        position: relative;
+        display: inline-block;
+    }
     .dropdown-title{
         width: 310px;
         height: 50px;
@@ -332,7 +336,12 @@ html {
     .dropdown-title img{
         margin-left: 180px;
     }
-    .dropdown-size-1{
+    .dropdown-content{
+
+        display: none;
+    }
+    .size-picker.showDropdown .dropdown-content{
+        display: block;
         margin-right: 5%;
         display: flex;
         flex-direction: row;
@@ -345,17 +354,10 @@ html {
         border: 1px solid #707070;
         align-self: center;
         transition: all 0.2s;
-        display: none;
     }
-    .dropdown-title:hover{
-        display: block;
-    }
-    .dropdown-size-1 li{
+    .size-picker.showDropdown .dropdown-content > li{
+        margin-left: 10px;
         margin-top: 10px;
-        margin-left: 20px;
-    }
-    .product-information{
-
     }
     /* Style for recommendation-mobile */
     .recommendation{
