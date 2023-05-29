@@ -1,8 +1,11 @@
+.topline {
+    width: 100%;
+    text-align: center;
+}
 /* filter work space */
 .filterSpace {
     width: 80%;
     height: auto;
-
 }
 
 /* filter items display */
@@ -55,3 +58,7 @@
     height: 20px;
 }
 
+.confirmButton {
+    width: 100%;
+    text-align: center;
+}
