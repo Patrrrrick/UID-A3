@@ -35,9 +35,12 @@
 }
 
 .menuItems img {
-    max-width: 10%;
+    height: 100%;
+    width: 100%;
+
 }
 
-.dropDownContent {
-    display: none
+.menu {
+    width:100%;
+    display: flex;
 }
