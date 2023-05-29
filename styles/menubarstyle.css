@@ -33,3 +33,11 @@
 .rightICON {
     margin-right: 25px;
 }
+
+.menuItems img {
+    max-width: 10%;
+}
+
+.dropDownContent {
+    display: none
+}
