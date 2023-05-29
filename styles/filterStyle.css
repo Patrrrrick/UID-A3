@@ -33,6 +33,15 @@
 .firstSizeLine {
     display: inline-block;
 }
+.sizeLineOne img {
+    width: 30px;
+    height: 30px;
+}
+.sizeLineTwo img {
+    width: 30px;
+    height: 30px;
+
+}
 .secondSizeLine {
     display: inline-block;
 }
@@ -45,3 +54,4 @@
     width: 20px;
     height: 20px;
 }
+
