@@ -90,17 +90,8 @@
     object-fit: cover;
 }
 
-#image3{
-    width: 100%;
-    height: 30%;
-    object-fit: cover;
-    overflow: hidden;
-}
+
 .itemSecond {
     width:120px;
-    height: 150px;
-}
-.itemLast {
-    width: 140px;
     height: 150px;
 }
