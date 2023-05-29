@@ -12,12 +12,24 @@
     justify-content: space-between;
 }
 .column {
-    display: flex;
-    width: auto;
+    width: 30%;
     margin-right: 20px;
 }
 .topic {
+    width: auto;
     font-style: bold;
     margin-bottom: 10px;
 }
 
+.subContent p {
+    width: auto;
+    margin-bottom: 5px;
+}
+
+.firstLine {
+    display: inline-block;
+}
+
+.firstSizeLine {
+    display: inline-block;
+}
