@@ -1,0 +1,23 @@
+/* filter work space */
+.filterSpace {
+    width: 70%;
+    height: auto;
+    box-shadow: 5px;
+}
+
+/* filter items display */
+.filterContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.column {
+    display: flex;
+    width: auto;
+    margin-right: 20px;
+}
+.topic {
+    font-style: bold;
+    margin-bottom: 10px;
+}
+
