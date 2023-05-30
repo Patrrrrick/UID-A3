@@ -353,7 +353,7 @@ html {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        width: 310px;
+        width: 105%;
         height: 150px;
         position: absolute;
         z-index: 1;

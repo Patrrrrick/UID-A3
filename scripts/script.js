@@ -38,9 +38,17 @@ thumbnails.forEach(function(thumbnail) {
 
 let colourGreen = document.getElementById("colourGreen");
 let colourWhite = document.getElementById("colourWhite");
+let colourPink = document.getElementById("colourPink");
+let colourBrown = document.getElementById("colourBrown")
 function changeColourGreen(){
     window.location.href = "productDetails-1.html";
 }
 function changeColourWhite(){
     window.location.href = "productDetails-1-white.html";
+}
+function changeColourPink(){
+  window.location.href = "productDetails-2.html";
+}
+function changeColourBrown(){
+  window.location.href = "productDetails-2-brown.html";
 }
