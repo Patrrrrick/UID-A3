@@ -10,6 +10,7 @@
 .filterSpace {
     width: 80%;
     height: auto;
+    align-items: center;
 }
 /* filter items display */
 .filterContainer {
@@ -18,9 +19,10 @@
     justify-content: space-between;
 }
 .column {
-    width: 60%;
+    width: 100%;
     margin-right: 20px;
-    padding: 10px;
+    padding:5px;
+    border-right: 1px black;
 }
 .topic {
     width: auto;
@@ -28,6 +30,7 @@
 }
 
 .topic p {
+    font-style: bold;
     color: blueviolet;
     font-size: var(--text-lg);
     font-family: var(--font-primary);
@@ -71,12 +74,13 @@
     height: 20px;
 }
 
-.confirmButton {
-    width: 100%;
-    text-align: center;
-}
-
 
 .confirmButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+    height: 5%;
     background-color: pink;
+    text-align: center;
 }
