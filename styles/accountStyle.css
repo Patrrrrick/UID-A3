@@ -2,8 +2,8 @@
     position: fixed;
     top: 0;
     right: 0;
-    width: 400px;
-    height: 60%;
+    width: 450px;
+    height: 70%;
     background-color: white;
     padding: 30px;
     box-sizing: border-box;
@@ -30,4 +30,47 @@
     font-style: thin;
 }
 
-  
+/* tittle */
+.mainArea {
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.introduce {
+    font-size: var(--text-lg);
+    font-family: var(--font-primary);
+}
+
+.specialTittle {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.nameLine {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+
+.email {
+    width: 87%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.create {
+    position: relative;
+    margin-top: 20px;
+    text-align: center;
+}
