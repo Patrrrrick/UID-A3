@@ -74,6 +74,10 @@
     height: 20px;
 }
 
+.lineOne, .lineTwo {
+    display: flex;
+    justify-content: center; 
+}
 
 .confirmButton {
     display: flex;
