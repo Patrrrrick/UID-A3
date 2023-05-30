@@ -1,0 +1,11 @@
+.accountWorkPlace {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 500px;
+    height: 100%;
+    background-color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    z-index: 999; 
+}
