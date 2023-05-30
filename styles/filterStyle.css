@@ -33,13 +33,17 @@
     color: blueviolet;
     font-size: var(--text-lg);
     font-family: var(--font-primary);
+    margin-bottom: 5px;
 }
 
 .subContent p {
     width: auto;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
     font-size: var(--text-md);
     font-family: var(--font-secondary);
+
+
 
     
 }
@@ -54,6 +58,7 @@
 .sizeLineOne img {
     width: 30px;
     height: 30px;
+    margin-bottom: 10px;
 }
 .sizeLineTwo img {
     width: 30px;
@@ -66,11 +71,14 @@
 .lineOne img {
     width: 20px;
     height: 20px;
+    margin-bottom: 5px;
+    margin-right: 5px;
 }
 
 .lineTwo img {
     width: 20px;
     height: 20px;
+    margin-right: 5px;
 }
 
 .lineOne, .lineTwo {
@@ -86,4 +94,12 @@
     height: 5%;
     background-color: pink;
     text-align: center;
+}
+
+.contentLine {
+    width: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: var(--text-md);
+    font-family: var(--font-secondary);
 }
