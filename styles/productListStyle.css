@@ -114,3 +114,7 @@
     height: 22px;
     margin-right: 5px;
 }
+/* mobile virson */
+@media screen and (max-width:850px){
+
+}
