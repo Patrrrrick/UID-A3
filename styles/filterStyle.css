@@ -7,7 +7,6 @@
     width: 80%;
     height: auto;
 }
-
 /* filter items display */
 .filterContainer {
     width: 100%;
@@ -20,13 +19,14 @@
 }
 .topic {
     width: auto;
-    font-style: bold;
     margin-bottom: 10px;
+    
 }
 
 .subContent p {
     width: auto;
     margin-bottom: 5px;
+    
 }
 
 .firstLine {
