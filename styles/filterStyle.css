@@ -6,6 +6,12 @@
     width: 100%;
     text-align: center;
 }
+.topline h3 {
+    font-size: var(--text-lg);
+    font-family: var(--font-primary);
+    color: #a73c71;
+
+}
 /* filter work space */
 .filterSpace {
     width: 100%;
@@ -30,7 +36,7 @@
 
 .topic p {
     font-style: bold;
-    color: blueviolet;
+    color: #a73c71;
     font-size: var(--text-lg);
     font-family: var(--font-primary);
     margin-bottom: 5px;
@@ -91,10 +97,10 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 5%;
-    background-color: pink;
+    height: 40px;
     text-align: center;
 }
+
 
 .contentLine {
     width: auto;
@@ -102,4 +108,24 @@
     margin-top: 10px;
     font-size: var(--text-md);
     font-family: var(--font-secondary);
+}
+.applyContainer {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.confirmItems {
+    position: absolute;
+    z-index: 1;
+}
+
+.confirmItems span {
+    color: aliceblue;
+}
+.confirmIcon {
+    width: 120px;
+    height: 40px;
+    background-color: #a73c71;
 }
