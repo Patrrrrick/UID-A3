@@ -8,21 +8,21 @@
 }
 /* filter work space */
 .filterSpace {
-    width: 80%;
+    width: 100%;
     height: auto;
-    align-items: center;
 }
 /* filter items display */
 .filterContainer {
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 20px;
 }
 .column {
-    width: 100%;
+    width: auto;
     margin-right: 20px;
     padding:5px;
-    border-right: 1px black;
+    border-right: 1px solid black;
 }
 .topic {
     width: auto;
@@ -79,7 +79,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 10%;
+    width: 100%;
     height: 5%;
     background-color: pink;
     text-align: center;
