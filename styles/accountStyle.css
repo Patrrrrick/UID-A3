@@ -3,9 +3,18 @@
     top: 0;
     right: 0;
     width: 500px;
-    height: 100%;
+    height: 60%;
     background-color: white;
     padding: 20px;
     box-sizing: border-box;
     z-index: 1; 
+    border: 1px solid black;
 }
+
+.firstLine {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+  
