@@ -71,3 +71,8 @@
     width: 100%;
     text-align: center;
 }
+
+
+.confirmButton {
+    background-color: pink;
+}
