@@ -63,7 +63,7 @@
 .menu1 {
     width:70%;
     height:300px;
-    display: flex;
+    position: absolute;
     justify-content: space-around;
     align-items: center;
     margin-left: auto;
@@ -79,11 +79,16 @@
     height: 100%
 }
 
+/* new drop-down content */
 
 .menu2 {
-    display: flex;
     width: 70%;
     height: 300px;
+}
+.product-new-display {
+    display: flex;
+    width: 100%;
+    height: 100%;
 }
 .menuItems-new {
     margin-left: 10px;
