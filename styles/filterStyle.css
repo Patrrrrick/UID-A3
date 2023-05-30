@@ -20,7 +20,12 @@
 .topic {
     width: auto;
     margin-bottom: 10px;
-    
+}
+
+.topic p {
+    color: blueviolet;
+    font-size: var(--text-md);
+    font-family: var(--font-primary);
 }
 
 .subContent p {
