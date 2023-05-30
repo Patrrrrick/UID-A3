@@ -1,3 +1,7 @@
+.FilterName {
+    font-size: var(--text-xl);
+    font-family: var(--font-primary);
+}
 .topline {
     width: 100%;
     text-align: center;
