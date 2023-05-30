@@ -16,7 +16,7 @@
 .column {
     width: 60%;
     margin-right: 20px;
-    padding: 30px;
+    padding: 10px;
 }
 .topic {
     width: auto;
@@ -32,6 +32,8 @@
 .subContent p {
     width: auto;
     margin-bottom: 5px;
+    font-size: var(--text-md);
+    font-family: var(--font-secondary);
 
     
 }
