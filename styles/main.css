@@ -731,9 +731,8 @@ h5{
         object-fit: cover;
         object-position: top;
     }
-    .sale-products > .button{
-        grid-column: 1/3;
-        grid-row: 3/4;
+    .sale-products > a{
+        display: none;
     }
     /* Categories area-mobile */
     .categories{
