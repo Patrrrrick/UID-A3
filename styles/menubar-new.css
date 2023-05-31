@@ -10,7 +10,6 @@ li {
     list-style: none;
 }
 
-
 /* make items in line */
 .mobileContainer {
     display: none;
@@ -21,7 +20,7 @@ li {
     justify-content: space-between;
 }
 
-.liftPart {
+.leftPart {
     list-style: none;
     display: flex;
     align-items: center;
@@ -31,6 +30,7 @@ li {
     list-style: none;
     display: flex;
     align-items: center;
+    margin-right: 10px;
 }
 
 .left-content {
@@ -47,7 +47,7 @@ li {
 .dropDownName {
     display: inline-block;
     color: black;
-    font-size: var(--text-md);
+    font-size: var(--text-lg);
     font-family: var(--font-primary);
     text-align: center;
     text-decoration: none;
@@ -114,23 +114,32 @@ li {
     align-content: center;
     justify-content: center;
 }
+
 .introduce {
     flex-grow: 1;
     padding: 10px;
     font-style: bold;
     color: aliceblue;
     position: absolute;
+    font-family: var(--font-primary);
+    font-size: var(--text-sm);
+    font-style: bold;
 }
 .newContainer {
     display: flex;
     flex-direction: column;
     margin-right: 10px;
 }
-.descibe {
+.decribe {
     text-align: center;
+    font-family: var(--font-primary);
+    font-size: var(--text-sm);
+    margin-top: 5px;
 }
-.descibe p {
-    text-align: center;
+.priceChange {
+    display: inline-block;
+    font-family: var(--font-primary);
+    font-size: var(--text-sm);
 }
 
 /* mobile vision */
@@ -160,6 +169,12 @@ li {
     .mobile-right {
         display: flex;
         justify-content: flex-end;
+    }
+    .decribe p {
+        font-family: var(--font-primary);
+        font-size: var(--text-md);
+        margin-top: 5px;
+
     }
 
     /* images size edit */
