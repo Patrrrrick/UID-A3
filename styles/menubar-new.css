@@ -12,6 +12,10 @@ li {
 
 
 /* make items in line */
+.mobileContainer {
+    display: none;
+}
+
 .NAVcontainer {
     display: flex;
     justify-content: space-between;
