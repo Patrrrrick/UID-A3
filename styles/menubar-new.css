@@ -42,10 +42,17 @@ li {
 
 .dropDownName {
     display: inline-block;
-    color: aquamarine;
+    color: black;
+    font-size: var(--text-md);
+    font-family: var(--font-primary);
     text-align: center;
     text-decoration: none;
     margin-right: 15px;
+}
+
+.dropDownName:hover {
+    color: #a73c71;
+    text-decoration: underline;
 }
 /* left part content */
 .logo {
@@ -53,11 +60,7 @@ li {
     height: 80px;
     margin-right: 40px;
 }
-.dropDownName {
-    color: blueviolet;
-    text-decoration: none;
-    text-align: center;
-}
+
 .dropDownItems {
     display: none;
     position: absolute;
