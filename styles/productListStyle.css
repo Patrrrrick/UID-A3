@@ -100,17 +100,20 @@
 
 /* price line and like icon */
 .Priceandlike {
-    display: inline-block;
-    margin-bottom: 5px;
+
 }
 .pricecontainer {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    position: relative;
+    margin-top: 15px;;
+}
+.pricecontainer p {
+    position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .pricecontainer img {
+    float: right;
     height: 22px;
     width: 22px;
 }
