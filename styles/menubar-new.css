@@ -91,16 +91,26 @@ li {
 
 .dropDownItems .items img {
     display: block;
-    width: 130px;
-    height: 200px;
+    width: 160px;
+    height: 260px;
     object-fit: cover;
+}
+.newContainer{
+    height: 100%;
+    width: 100%;
 }
 .newContainer img {
     display: block;
-    width: 130px;
-    height: 200px;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
+    object-position: center;
 }
+.decribe{
+    height: 10%;
+}
+
+
 
 
 /* description for content */
