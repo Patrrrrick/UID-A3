@@ -51,6 +51,7 @@ li {
 .logo {
     width: auto;
     height: 80px;
+    margin-right: 40px;
 }
 .dropDownName {
     color: blueviolet;
@@ -86,6 +87,13 @@ li {
     height: 200px;
     object-fit: cover;
 }
+.newContainer img {
+    display: block;
+    width: 130px;
+    height: 200px;
+    object-fit: cover;
+}
+
 
 /* description for content */
 .items {
@@ -110,7 +118,12 @@ li {
     flex-direction: column;
     margin-right: 10px;
 }
-
+.descibe {
+    text-align: center;
+}
+.descibe p {
+    text-align: center;
+}
 
 /* mobile vision */
 
