@@ -196,10 +196,13 @@ li {
         margin-left: 5px;
         margin-bottom: 15px;
     }
-    .mobile-mid img {
+    .mobile-mid h5 {
         height: 20px;
         width: auto;
         margin-top: 15px;
+        font-family: var(--font-primary);
+        font-size: var(--text-md);
+
     }
     .mobile-right img {
         width: 20px;
@@ -208,6 +211,14 @@ li {
         margin-right: 5px;
         margin-top: 15px;
         margin-bottom: 15px;
+    }
+
+    /* menu expand */
+    .expand li {
+        margin-left: 5px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+
     }
 
 }
