@@ -20,7 +20,7 @@ li {
     justify-content: space-between;
 }
 
-.liftPart {
+.leftPart {
     list-style: none;
     display: flex;
     align-items: center;
@@ -47,7 +47,7 @@ li {
 .dropDownName {
     display: inline-block;
     color: black;
-    font-size: var(--text-md);
+    font-size: var(--text-lg);
     font-family: var(--font-primary);
     text-align: center;
     text-decoration: none;
@@ -114,6 +114,7 @@ li {
     align-content: center;
     justify-content: center;
 }
+
 .introduce {
     flex-grow: 1;
     padding: 10px;
@@ -122,6 +123,7 @@ li {
     position: absolute;
     font-family: var(--font-primary);
     font-size: var(--text-md);
+    font-style: bold;
 }
 .newContainer {
     display: flex;
