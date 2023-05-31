@@ -1,0 +1,26 @@
+/* make items in line */
+.NAVcontainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.liftPart {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.rightPart {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.left-content {
+    margin-right: 10px; 
+}
+
+.rightICON {
+     margin-left: 10px; 
+}
+
