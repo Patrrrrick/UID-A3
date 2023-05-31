@@ -24,10 +24,27 @@ h5{
     display: flex;
     justify-content: space-between;
     width: 100vw;
+    position: relative;
 }
 .hero-banner-image img{
     width: 50%;
     height: 100%;
+    z-index: 0;
+}
+.hero-banner-logo{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 15%;
+    z-index: 1;
+    transform: scale(0.4);
+}
+.hero-banner-logo img{
+    width: 100%;
+    object-fit: fill;
+}
+.mobile-logo{
+    display: none;
 }
 /* Product display*/
 .products-display{
@@ -478,13 +495,14 @@ h5{
     }
     /* Homepage hero banner-mobile */
     .hero-banner{
-        height: 80vh;
+        height: 80%;
         width: 100vw;
     }
     .hero-banner-image{
         margin-top: 5vh;
         width: 100%;
         overflow: hidden;
+        position: relative;
     }
     .hero-banner-image img{
         width: 100%;
@@ -493,6 +511,21 @@ h5{
     }
     .hero-banner-image-2{
         display: none;
+    }
+    .hero-banner-logo{
+        display: none;
+    }
+    .mobile-logo{
+        display: block;
+        top: 40%;
+        width: 100%;
+        height: 50%;
+        position: absolute;
+        transform: scale(0.6);
+    }
+    .mobile-logo img{
+        object-fit: fill;
+
     }
     /* Product display-mobile*/
     .products-display{
@@ -657,6 +690,7 @@ h5{
         line-height: 10vh;
         width: 100%;
         text-align: center;
+        font-size: var(--text-lg);
     }
     .price-setting{
         display: flex;
