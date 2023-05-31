@@ -11,30 +11,6 @@ li {
 }
 
 /* make items in line */
-.NAVcontainer {
-    display: flex;
-    justify-content: space-between;
-}
-
-.liftPart {
-    list-style: none;
-    display: flex;
-    align-items: center;
-}
-
-.rightPart {
-    list-style: none;
-    display: flex;
-    align-items: center;
-}
-
-.left-content {
-    margin-right: 10px; 
-}
-
-.rightICON {
-     margin-left: 10px; 
-}
 
 /* left part content */
 .dropDownName {
@@ -42,5 +18,33 @@ li {
     text-decoration: none;
     text-align: center;
 }
+.dropDownItems {
+    display: none;
+    position: absolute;
+    left: 0;
+    background-color: white;
+    width: 100%;
+    z-index: 1;
+    margin-top: 30px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+.dropDownName:hover + .dropDownItems {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 
+}
+
+.dropDownItems .items {
+    position: relative;
+    margin: 10px;
+}
+
+.dropDownItems .items img {
+    display: block;
+    width: 200px;
+    height: 250px;
+    object-fit: cover;
+}
 
