@@ -152,6 +152,9 @@ li {
     font-family: var(--font-primary);
     font-size: var(--text-sm);
 }
+.expand {
+    display: none;
+}
 
 /* mobile vision */
 @media screen and (max-width:850px) {
