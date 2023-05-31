@@ -41,15 +41,21 @@
     margin-left: auto;
     margin-right: auto;
 }
+.tab-bar a{
+    text-decoration: none;
+    color: black;
+}
 .tab-l p {
     display: inline-block;
-    font-size: var(--text-md);
+    font-size: var(--text-lg);
     font-family: var(--font-primary);
 }
-
+.tab-left-new{
+    color: var(--colour-primary);
+}
 .tab-r p{
     display: inline-block;
-    font-size: var(--text-md);
+    font-size: var(--text-lg);
     font-family: var(--font-primary);
 }
 
