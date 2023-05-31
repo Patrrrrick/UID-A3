@@ -130,7 +130,21 @@ li {
 }
 
 /* mobile vision */
-
-@media screen {
-    
+@media screen and (max-width:850px) {
+    .mobileContainer {
+        display: flex;
+        justify-content: center;
+    }
+    .mobile-left {
+        display: flex;
+        justify-content: flex-start;
+    }
+    .mobile-mid {
+        display: flex;
+        justify-content: center;
+    }
+    .mobile-right {
+        display: flex;
+        justify-content: flex-end;
+    }
 }
