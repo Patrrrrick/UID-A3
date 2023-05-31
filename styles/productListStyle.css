@@ -56,6 +56,10 @@
 .tab-left-new{
     color: var(--colour-primary);
 }
+
+#layoutbutton {
+    display: none;
+}
 .tab-r p{
     display: inline-block;
     font-size: var(--text-lg);
@@ -139,6 +143,9 @@
 
 /* mobile virson */
 @media screen and (max-width:850px) {
+    #layoutbutton {
+        display: inline-block;
+    }
     .workSpace {
         width: 100%;
         height: auto;
