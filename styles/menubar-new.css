@@ -26,6 +26,7 @@ li {
     list-style: none;
     display: flex;
     align-items: center;
+    float: right;
 }
 
 .left-content {
@@ -33,7 +34,10 @@ li {
 }
 
 .rightICON {
-     margin-left: 10px; 
+     margin-left: 20px; 
+     width: 20px;
+     height: 20px;
+     
 }
 
 .dropDownName {
@@ -41,8 +45,13 @@ li {
     color: aquamarine;
     text-align: center;
     text-decoration: none;
+    margin-right: 15px;
 }
 /* left part content */
+.logo {
+    width: auto;
+    height: 80px;
+}
 .dropDownName {
     color: blueviolet;
     text-decoration: none;
@@ -78,3 +87,21 @@ li {
     object-fit: cover;
 }
 
+/* description for content */
+.items {
+    display: flex;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    height: 200px;
+    width: 140px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+.introduce {
+    flex-grow: 1;
+    padding: 10px;
+    font-style: bold;
+    color: aliceblue;
+    position: absolute;
+}
