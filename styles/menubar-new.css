@@ -105,7 +105,11 @@ li {
     color: aliceblue;
     position: absolute;
 }
-
+.newContainer {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+}
 
 
 /* mobile vision */
