@@ -11,3 +11,5 @@ function hideMenu(menu) {
         menuElement.style.display = 'none';
     }
 }
+
+
