@@ -120,18 +120,21 @@ li {
     font-style: bold;
     color: aliceblue;
     position: absolute;
+    font-family: var(--font-primary);
+    font-size: var(--text-md);
 }
 .newContainer {
     display: flex;
     flex-direction: column;
     margin-right: 10px;
 }
-.descibe {
+.decribe {
     text-align: center;
+    font-family: var(--font-primary);
+    font-size: var(--text-md);
+    margin-top: 5px;
 }
-.descibe p {
-    text-align: center;
-}
+
 
 /* mobile vision */
 @media screen and (max-width:850px) {
@@ -160,6 +163,12 @@ li {
     .mobile-right {
         display: flex;
         justify-content: flex-end;
+    }
+    .decribe p {
+        font-family: var(--font-primary);
+        font-size: var(--text-md);
+        margin-top: 5px;
+
     }
 
     /* images size edit */
