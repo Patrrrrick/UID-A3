@@ -16,6 +16,7 @@
     font-style: bold;
     text-align: center;  
     overflow: hidden;
+    margin-top: 20px;
 }
 .coverImage img {
     width: 100%;
