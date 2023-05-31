@@ -24,6 +24,10 @@ html {
 .nav-product{
     color: var(--colour-primary);
 }
+.nav-bar a{
+    text-decoration: none;
+    color: black;
+}
 /* Product display area */
 .product-display{
     grid-column: 1/2;
@@ -221,6 +225,14 @@ html {
 }
 .size-btn .size{
     margin-right: 20px;
+}
+.size-btn-2{
+    margin-top: 10px;
+    display: flex;
+    margin-left: 20px;
+}
+.size-btn-2 .size{
+    margin-right: 3px;
 }
 .add-to-bag{
     margin-top: 30px;
