@@ -10,8 +10,38 @@ li {
     list-style: none;
 }
 
-/* make items in line */
 
+/* make items in line */
+.NAVcontainer {
+    display: flex;
+}
+
+.liftPart {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.rightPart {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.left-content {
+    margin-right: 10px; 
+}
+
+.rightICON {
+     margin-left: 10px; 
+}
+
+.dropDownName {
+    display: inline-block;
+    color: aquamarine;
+    text-align: center;
+    text-decoration: none;
+}
 /* left part content */
 .dropDownName {
     color: blueviolet;
@@ -37,14 +67,14 @@ li {
 }
 
 .dropDownItems .items {
-    position: relative;
+
     margin: 10px;
 }
 
 .dropDownItems .items img {
     display: block;
-    width: 200px;
-    height: 250px;
+    width: 130px;
+    height: 200px;
     object-fit: cover;
 }
 
