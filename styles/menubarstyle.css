@@ -68,6 +68,7 @@
     align-items: center;
     margin-left: auto;
     margin-right: auto;
+    background-color: white;
 }
 
 .column1 {
@@ -109,4 +110,15 @@
     height: 100%;
     object-fit: cover;
 }
+.dropDownName {
+    font-size: var(--text-lg);
+    font-family: var(--font-primary);
+}
+.introduce {
+    font-size: var(--text-md);
+    font-family: var(--font-primary);
+}
 
+@media screen and (max-width:850px) {
+    
+}

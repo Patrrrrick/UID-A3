@@ -1,0 +1,76 @@
+.accountWorkPlace {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 450px;
+    height: 70%;
+    background-color: white;
+    padding: 30px;
+    box-sizing: border-box;
+    z-index: 1; 
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.firstLine {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+
+.top-left {
+    width: 20px;
+    height: 20px;
+}
+.top-right {
+    font-size: var(--text-lg);
+    font-family: var(--font-primary);
+    font-style: thin;
+}
+
+/* tittle */
+.mainArea {
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.introduce {
+    font-size: var(--text-lg);
+    font-family: var(--font-primary);
+}
+
+.specialTittle {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.nameLine {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+
+.email {
+    width: 87%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.create {
+    position: relative;
+    margin-top: 20px;
+    text-align: center;
+}

@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/typography.css">
     <link rel="stylesheet" href="styles/filterStyle.css">
+    <link rel="stylesheet" href="styles/colour.css">
 
 </head>
 <body>
@@ -26,17 +27,17 @@
             <div class="column">
                 <div class="topic"><p>Categories</p></div>
                 <div class="subCotent">
-                    <p>Shirt</p>
-                    <p>Earrings</p>
-                    <p>Dress</p>
+                    <p class="contentLine">Shirt</p>
+                    <p class="contentLine">Earrings</p>
+                    <p class="contentLine">Dress</p>
                 </div>
             </div>
             <div class="column">
                 <div class="topic"><p>Price Range</p></div>
                 <div class="subCotent">
-                    <p>$0-50</p>
-                    <p>$50-100</p>
-                    <p>$100-150</p>
+                    <p class="contentLine">$0-50</p>
+                    <p class="contentLine">$50-100</p>
+                    <p class="contentLine">$100-150</p>
                 </div>
             </div>
             <div class="column">
@@ -45,7 +46,7 @@
                     <div class="lineOne">
                         <img class="firstLine" src="images/icons/ColourDarkGreen.svg" alt="darkGreen">
                         <img class="firstLine" src="images/icons/ColourWhite.svg" alt="darkGreen">
-                        <img class="firstLine" src="images/icons/ColourRed.svg" alt="darkGreen">
+                        <img class="firstLine" src="images/icons/ColourRed.svg" alt="red">
                     </div>
                     <div class="lineTwo">
                         <img class="secondLine" src="images/icons/ColourDarkBrown.svg" alt="darkbrown">
@@ -74,7 +75,75 @@
             </div>
         </div>
         <div class="confirmButton">
-            <div class="confirmItems"><span>APPLY</span></div>
+            <div class="applyContainer">
+                <div class="confirmItems"><span>APPLY</span></div>
+                <div class="confirmIcon"></div>
+            </div>
+        </div>
+        <div class="mobile-filter">
+            <div class="filter-mobile-container">
+                <div class="mobileName">
+                        <p>FILTER</p>
+                        <img src="images/icons/close.svg" alt="cancel"> 
+                </div>
+
+                <div class="Row">
+                    <ul class="row1">
+                        <li>SORT BY</li>
+                        <li>PRICE (LOW - HIGH)</li>
+                        <li>PRICE (HIGH - LOW)</li>
+                        <li>NEWEST</li>
+                        <li>TOP SELLER</li>
+                    </ul>
+                </div>
+                <div>
+                    <ul class="row2">
+                        <li>PRICE LEVEL</li>
+                        <li>$0-$50</li>
+                        <li>$50-$100</li>
+                        <li>$100-150</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <ul class="row">
+                        <li>COLOUR</li>
+                        <li><img class="firstLine" src="images/icons/ColourDarkGreen.svg" alt="darkGreen"></li>
+                        <li><img class="firstLine" src="images/icons/ColourWhite.svg" alt="white"></li>
+                        <li><img class="firstLine" src="images/icons/ColourBrown.svg" alt="brown"></li>
+                        <li><img src="images/icons/ColourBlue.svg" alt="blue"></li>
+                        <li><img src="images/icons/ColourPink.svg" alt="pink"></li>
+                    </ul>
+
+                </div>
+                <div>
+                    <div class="size">SIZE</div>
+                    <div>
+                        <span class="first-row-size">
+                            <img class="firstSizeLine"src="images/icons/Size-XS.svg" alt="XS">
+                            <img class="firstSizeLine"src="images/icons/Size-XSS.svg" alt="XS/S">
+                            <img class="firstSizeLine"src="images/icons/Size-S.svg" alt="S">
+                            <img class="firstSizeLine"src="images/icons/Size-SM.svg" alt="S/M">
+                            <img class="firstSizeLine"src="images/icons/Size-ML.svg" alt="M/L">
+                            <img class="firstSizeLine"src="images/icons/Size-L.svg" alt="L">
+                        </span>
+                        <span class="second-row-size">
+                            <img class="secondSizeLine" src="images/icons/Size-8.svg" alt="8">
+                            <img class="secondSizeLine" src="images/icons/Size-10.svg" alt="10">
+                            <img class="secondSizeLine" src="images/icons/Size-12.svg" alt="12">
+                            <img class="secondSizeLine" src="images/icons/Size-14.svg" alt="14">
+                            <img class="secondSizeLine" src="images/icons/Size-16.svg" alt="16">
+                        </span>
+                    </div>
+                </div>
+                <div>
+                    <div class="continer">
+                        <div > color</div>
+                        <div>APPLY</div>
+                        <div>RESET</div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </body>
