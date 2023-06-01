@@ -78,7 +78,7 @@ li {
     height: 60vh;
     z-index: 1;
     margin-top: 30px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     padding-bottom: 20px;
 }
 .dropDownName:hover + .dropDownItems {
@@ -137,7 +137,7 @@ li {
     color: aliceblue;
     position: absolute;
     font-family: var(--font-primary);
-    font-size: var(--text-sm);
+    font-size: var(--text-lg);
     font-style: bold;
 }
 .newContainer {
@@ -148,13 +148,13 @@ li {
 .decribe {
     text-align: center;
     font-family: var(--font-primary);
-    font-size: var(--text-sm);
+    font-size: var(--text-md);
     margin-top: 5px;
 }
-.priceChange {
-    display: inline-block;
+.imageName_new {
+
     font-family: var(--font-primary);
-    font-size: var(--text-sm);
+    font-size: var(--text-md);
 }
 .expand {
     display: none;
@@ -231,7 +231,9 @@ li {
 
     /* menu expand */
     .expand {
-        width: 0%;
+        width: 40%;
+        display: none;
+        flex-direction: column;
         background-color: white;
         height: 100vh;
         position: absolute;
@@ -251,6 +253,7 @@ li {
         margin-right: 8px;
         width: 12px;
         height: 12px;
+        cursor: pointer;
     }
 
     .sub {
@@ -265,6 +268,10 @@ li {
         float: right;
         margin-right: 8px;
         transform: rotate(180deg);
+    }
+    .subshowItems {
+        display: none;
+        flex-direction: column;
     }
 
     
