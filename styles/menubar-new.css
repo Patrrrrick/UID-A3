@@ -137,7 +137,7 @@ li {
     color: aliceblue;
     position: absolute;
     font-family: var(--font-primary);
-    font-size: var(--text-sm);
+    font-size: var(--text-lg);
     font-style: bold;
 }
 .newContainer {
