@@ -3,10 +3,14 @@
 // for icon change
 function iconChange() {
     var icon = document.getElementById('layoutbutton');
+    var contain =document.getElementById('cont')
     if (icon.src.match('Wechat')) {
         icon.src = 'images/icons/layout.png'
+        contain.style.justifyContent = 'center'
     } else {
         icon.src ='images/icons/WechatIMG53762.png'
+        contain.style.justifyContent = 'space between'
+
     }
 }
 

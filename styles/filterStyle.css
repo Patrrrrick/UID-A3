@@ -147,6 +147,7 @@
         display: none;
     }
 
+
     ul {
         border-bottom: 1px solid #a73c71;
     }
@@ -154,7 +155,7 @@
     .filter-mobile-container {
         top: 0;
         position: absolute;
-        display: flex;
+        display: none;
         flex-direction: column;
         width: 100%; 
     /* 100% */
