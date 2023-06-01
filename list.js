@@ -3,11 +3,11 @@ function iconChange() {
     var icon = document.getElementById('layoutbutton');
     var contain =document.getElementById('cont')
     if (icon.src.match('Wechat')) {
-        icon.src = 'images/icons/layout.png'
-        contain.style.justifyContent = 'center'
+        icon.src = 'images/icons/layout.png';
+        contain.style.justifyContent = 'center';
     } else {
-        icon.src ='images/icons/WechatIMG53762.png'
-        contain.style.justifyContent = 'space between'
+        icon.src ='images/icons/WechatIMG53762.png';
+        contain.style.justifyContent = 'space between';
     }
 }
 
@@ -85,7 +85,7 @@ document.getElementById('layoutbutton').addEventListener('click', function() {
     var width = window.innerWidth
     var hide = document.getElementById("filter-lap");
     var show = document.getElementById("confirm");
-    var ex = document.getElementById('top')
+    var ex = document.getElementById('top');
 
     // mobile varibles
     var hideMob = document.getElementById("mobile-filter");
@@ -94,20 +94,20 @@ document.getElementById('layoutbutton').addEventListener('click', function() {
 
     if (width > 850) {
       if (hide.style.display == "flex") {
-        hide.style.display = 'none'
-        show.style.display = 'none'
-        ex.style.display = 'none'
+        hide.style.display = 'none';
+        show.style.display = 'none';
+        ex.style.display = 'none';
       } else {
-        hide.style.display = 'flex'
-        show.style.display = 'flex'
-        ex.style.display = 'flex'
+        hide.style.display = 'flex';
+        show.style.display = 'flex';
+        ex.style.display = 'flex';
       }
     } else {
       if (hideMob.style.display =='none'){
-        hideMob.style.display ='flex'
+        hideMob.style.display ='flex';
       }
       else {
-        hideMob.style.display ='none'
+        hideMob.style.display ='none';
       }
     }    
 })
@@ -121,12 +121,12 @@ function cancel () {
   // pc filter 
   var b = document.getElementById("filter-lap");
   var c = document.getElementById("confirm");
-  var d = document.getElementById('top')
+  var d = document.getElementById('top');
 
-  a.style.display='none'
-  b.style.display='none'
-  c.style.display='none'
-  d.style.display='none'
+  a.style.display='none';
+  b.style.display='none';
+  c.style.display='none';
+  d.style.display='none';
 
 
 }
@@ -134,19 +134,25 @@ function cancel () {
 
 
 // expand menue
-
   function expand() {
       var wid = document.getElementById("ex");
-      wid.style.width = "100%";
+      wid.style.display='flex';
   }
+
+ // undo expland
+ function back() {
+  var wid = document.getElementById("ex");
+  wid.style.display='none';
+ 
+ }
 // show bag 
   function showbag() {
-    var bag =document.getElementById("bag")
-    bag.style.display = "flex"
+    var bag =document.getElementById("bag");
+    bag.style.display = "flex";
   }
 // hide bag
   function hidebag() {
 
-    var hide = document.getElementById("bag")
-    hide.style.display = 'none'
+    var hide = document.getElementById("bag");
+    hide.style.display = 'none';
   }

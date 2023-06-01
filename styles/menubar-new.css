@@ -231,7 +231,9 @@ li {
 
     /* menu expand */
     .expand {
-        width: 0%;
+        width: 40%;
+        display: none;
+        flex-direction: column;
         background-color: white;
         height: 100vh;
         position: absolute;
