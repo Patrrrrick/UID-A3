@@ -1,5 +1,7 @@
+
+/* fixed the position and main work space */
 .accountWorkPlace {
-    position: fixed;
+    position: absolute;
     top: 0;
     right: 0;
     width: 450px;
@@ -11,7 +13,7 @@
     border: 1px solid black;
     padding: 10px;
 }
-
+/* ACCOUNT tittle */
 .firstLine {
     display: flex;
     align-items: center;
@@ -19,15 +21,16 @@
     margin-top: 15px;
     margin-bottom: 40px;
 }
-
+/*  close button */
 .top-left {
     width: 20px;
     height: 20px;
 }
+/*  tittle */
 .top-right {
     font-size: var(--text-lg);
     font-family: var(--font-primary);
-    font-style: thin;
+
 }
 
 /* tittle */
