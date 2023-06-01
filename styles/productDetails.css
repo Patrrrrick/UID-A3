@@ -318,7 +318,7 @@ html {
     }
     /* Style for mobile information*/
     .mobile-information{
-        height: 28vh;
+        height: 35vh;
         display: block;
         display: flex;
         flex-direction: column;
