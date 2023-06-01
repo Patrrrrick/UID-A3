@@ -114,3 +114,6 @@
 .line{
     border-bottom: 1.5px solid rgba(184, 184, 184, 0.5);
 }
+.line-search{
+    border-bottom: 1.5px solid var(--colour-primary);
+}
