@@ -137,7 +137,7 @@ function cancel () {
 
   function expand() {
       var wid = document.getElementById("ex");
-      wid.style.width = "40%";
+      wid.style.width = "100%";
   }
 // show bag 
   function showbag() {
