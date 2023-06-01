@@ -216,4 +216,7 @@ function showItems() {
   }
 }
 
-
+//go to previous page
+function gotoPrevious(){
+  window.history.back();
+}
