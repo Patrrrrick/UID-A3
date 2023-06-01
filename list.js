@@ -13,6 +13,24 @@ function iconChange() {
 
     }
 }
+// change picture 1
+function picture1() {
+  var icon = document.getElementById('spcial1');
+  if (icon.src.match('Pink')) {
+      icon.src = 'images/checkout/Palm-Collective-Checkerboard-Dress-Brown-A-1-1.webp';
+  } else {
+      icon.src ='images/product-list/Palm-Collective-Checkerboard-Dress-Pink-A-1-1-1.webp';
+  }
+}
+function picture1_1() {
+  var icon = document.getElementById('spcial1');
+  if (icon.src.match('Brown')) {
+      icon.src = 'images/product-list/Palm-Collective-Checkerboard-Dress-Pink-A-1-1-1.webp';
+  } else {
+      icon.src = 'images/checkout/Palm-Collective-Checkerboard-Dress-Brown-A-1-1.webp';
+  }
+}
+
 
 // for change image size
 document.getElementById('layoutbutton').addEventListener('click', function() {
