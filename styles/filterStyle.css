@@ -20,10 +20,11 @@
 /* filter items display */
 .filterContainer {
     width: 100%;
-    display: flex;
+    display: none;
     justify-content: center;
     gap: 20px;
 }
+
 .column {
     width: auto;
     margin-right: 20px;
@@ -89,7 +90,7 @@
 }
 
 .confirmButton {
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
     width: 100%;

@@ -22,3 +22,12 @@ document.getElementById('layoutbutton').addEventListener('click', function() {
       }
     }
   });
+
+
+  document.getElementById('filter').addEventListener('click',function() {
+    var hide = document.getElementById("filter-lap");
+    var hide = document.getElementById("confirm");
+    hide.style.display ='flex'
+    confirm.style.display = 'flex'
+
+  })
