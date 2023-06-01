@@ -119,7 +119,7 @@ document.getElementById('layoutbutton').addEventListener('click', function() {
 
 function cancel () {
   // mobile filter
-  var a = document.getElementById("mobile-filter")
+  var a = document.getElementById("mobile-filter");
   // pc filter 
   var b = document.getElementById("filter-lap");
   var c = document.getElementById("confirm");
@@ -132,3 +132,12 @@ function cancel () {
 
 
 }
+
+
+
+// expand menue
+
+  function expand() {
+      var wid = document.getElementById("ex");
+      wid.style.width = "40%";
+  }

@@ -201,13 +201,14 @@ li {
         margin-top: 15px;
         margin-left: 5px;
         margin-bottom: 15px;
+        cursor: pointer;
     }
     .mobile-mid h5 {
         height: 20px;
         width: auto;
         margin-top: 15px;
         font-family: var(--font-primary);
-        font-size: var(--text-md);
+        font-size: var(--text-lg);
 
     }
     .mobile-right img {
@@ -217,11 +218,12 @@ li {
         margin-right: 5px;
         margin-top: 15px;
         margin-bottom: 15px;
+        cursor: pointer;;
     }
 
     /* menu expand */
     .expand {
-        width: 0px;
+        width: 0%;
         background-color: white;
         height: 100vh;
         position: absolute;
