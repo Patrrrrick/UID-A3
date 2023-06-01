@@ -2,9 +2,6 @@
     display: flex;
     flex-direction: column;
 }
-.menu-bar{
-    height: 10vh;
-}
 /* Style for search title */
 .search-title{
     display: flex;
@@ -35,10 +32,17 @@
     flex-direction: row;
     margin-left: 20%;
 }
+.result-title a{
+    text-decoration: none;
+    color: black;
+}
+.result-title a:hover{
+    color: var(--colour-primary);
+}
 .result-title p{
     font-family: var(--font-primary);
     font-size: var(--text-lg);
-    color: #B95084;
+    color: var(--colour-primary);
 }
 .result-qty{
     position: absolute;

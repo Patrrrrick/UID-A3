@@ -29,6 +29,10 @@ html {
     text-decoration: none;
     color: black;
 }
+.nav-bar a:hover{
+    text-decoration: none;
+    color: var(--colour-primary);
+}
 /* Product display area */
 .product-display{
     grid-column: 1/2;
@@ -269,6 +273,7 @@ html {
       }
     /* Style for overall mobile page */
     .product-details{
+        margin-top: 0;
         display: flex;
         flex-direction: column;
         overflow: hidden;

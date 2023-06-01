@@ -56,6 +56,9 @@
 .tab-left-new{
     color: var(--colour-primary);
 }
+.tab-left a:hover{
+    color: var(--colour-primary);
+}
 
 #layoutbutton {
     display: none;
