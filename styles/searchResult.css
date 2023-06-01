@@ -16,9 +16,9 @@
 }
 /* Style for search result body */
 .searchResult{
-    margin-top: 10px;
+    margin-top: 5vh;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     position: relative;
 }
 .result-title{
@@ -35,3 +35,66 @@
     position: absolute;
     left: 48%;
 }
+ /* product display area */
+ .product{
+    margin-top: 5vh;
+    margin-left: 20%;
+    width: 300px;
+ }
+.product img {
+    width: 100%;
+    max-width: 290px;
+    height: auto;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+.product p {
+    font-size: 16.18px;
+    font-size: var(--text-md);
+    font-family: var(--font-primary);
+}
+/* product name */
+.Name {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+/* price line and like icon */
+.pricecontainer {
+    position: relative;
+    margin-top: 15px;;
+}
+.pricecontainer p {
+    position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.pricecontainer img {
+    float: right;
+    height: 22px;
+    width: 22px;
+}
+
+/* color icon resize and alignment*/
+.color {
+    height: 7px;
+    width: 100%;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.color img {
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    margin-right: 5px;
+}
+
+
+
+
+
+/* Sytle for mobile version */
+@media screen and (max-width:850px)
