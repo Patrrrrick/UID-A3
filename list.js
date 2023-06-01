@@ -13,7 +13,7 @@ function iconChange() {
 
     }
 }
-// change picture 1
+// hover  picture 1
 function picture1() {
   var icon = document.getElementById('spcial1');
   if (icon.src.match('Pink')) {
@@ -30,7 +30,44 @@ function picture1_1() {
       icon.src = 'images/checkout/Palm-Collective-Checkerboard-Dress-Brown-A-1-1.webp';
   }
 }
+// hover product 2
+function picture2() {
+  var icon = document.getElementById('special2');
+  if (icon.src.match('Green')) {
+      icon.src = 'images/productdetail/Adorne-Sofia-Top-White-A-1-1.webp';
+  } else {
+      icon.src ='images/product-list/Adorne-Sofia-Top-Green-A-1-1.webp';
+  }
+}
 
+function picture2_2() {
+  var icon = document.getElementById('special2');
+  if (icon.src.match('White')) {
+      icon.src = 'images/product-list/Adorne-Sofia-Top-Green-A-1-1.webp';
+  } else {
+      icon.src ='images/productdetail/Adorne-Sofia-Top-White-A-1-1.webp';
+  }
+}
+
+// hover product 3 
+
+function picture3() {
+  var icon = document.getElementById('special3');
+  if (icon.src.match('Pink')) {
+      icon.src = 'images/product-list/Adorne-Keely-Hoops-Sage-Green-1.webp';
+  } else {
+      icon.src ='images/product-list/Adorne-Keely-Hoops-Pale-Pink-1.webp';
+  }
+}
+
+function picture3_3() {
+  var icon = document.getElementById('special3');
+  if (icon.src.match('Green')) {
+      icon.src = 'images/product-list/Adorne-Keely-Hoops-Pale-Pink-1.webp';
+  } else {
+      icon.src ='images/product-list/Adorne-Keely-Hoops-Sage-Green-1.webp';
+  }
+}
 
 // for change image size
 document.getElementById('layoutbutton').addEventListener('click', function() {
