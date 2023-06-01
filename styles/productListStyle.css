@@ -72,6 +72,10 @@
     padding-right:10px;
     margin-left: 10px;
 }
+
+#filter {
+    cursor: pointer;
+}
  /* product display area */
 .productContainer{
     width: 80%;
