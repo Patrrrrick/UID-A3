@@ -312,7 +312,7 @@ li {
     background-color: white;
     width: 500px;
     height: 100vh;
-    position: absolute;
+    position: fixed;
     top: 0;
     right: 0;
     display: none;
