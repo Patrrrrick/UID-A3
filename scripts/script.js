@@ -146,6 +146,8 @@ document.getElementById('filter').addEventListener('click',function() {
   // mobile varibles
   var hideMob = document.getElementById("mobile-filter");
 
+
+
   if (width > 850) {
     if (hide.style.display == "flex") {
       hide.style.display = 'none';
@@ -165,6 +167,8 @@ document.getElementById('filter').addEventListener('click',function() {
     }
   }    
 })
+
+
 // cancel all windows
 
 function cancel () {
@@ -179,7 +183,11 @@ a.style.display='none';
 b.style.display='none';
 c.style.display='none';
 d.style.display='none';
+
+
 }
+
+
 
 // expand menue
 function expand() {
@@ -215,6 +223,8 @@ function showItems() {
     show.style.display = 'none';
   }
 }
+
+
 
 //go to previous page
 function gotoPrevious(){

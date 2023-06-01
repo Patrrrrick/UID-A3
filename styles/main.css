@@ -446,7 +446,7 @@ h5{
         width: 100vw;
     }
     .hero-banner-image{
-        margin-top: 5vh;
+        height: 100%;
         width: 100%;
         overflow: hidden;
         position: relative;
