@@ -21,6 +21,7 @@ html {
 .header img{
     position: absolute;
     left: 1vw;
+    cursor: pointer;
 }
 .mobile-header{
     display: none;

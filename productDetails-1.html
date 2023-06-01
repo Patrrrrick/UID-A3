@@ -8,8 +8,286 @@
     <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/productDetails.css">
+    <link rel="stylesheet" href="styles/layout.css">
 </head>
 <body>
+    <!-- Style for menu -->
+    <div class="NAVcontainer">
+        <ul class="leftPart">
+            <li class="left-content">
+                <a href="index.html"><img class="logo"src="images/checkout/logo.png" alt="brandlogo"></a>
+            </li>
+            <!-- drop down content -->
+            <!-- shop button -->
+            <li class="left-content">
+                <div class="dropDownName">SHOP</div>
+                <div class="dropDownItems">
+                    <div class="items">
+                        <img src="images/product-list/Esmaee-Momento-Shacket-1.webp" alt="Esmaee-Momento-Shacket">
+                        <div class="introduce">NEW ARRIVALS</div>
+                    </div>
+                    <div class="items">
+                        <img src="images/homepages/Adorne-Colby-Dress-Multi-A-1.webp" alt="Adorne-Colby-Dress-Multi">
+                        <div class="introduce">SALES</div>
+                    </div>
+                    <div class="items">
+                        <img src="images/menu-bar/Montaigne_web_JacquiTurk280.webp" alt="Montaigne_web_JacquiTurk">
+                        <div class="introduce">BEST SELLERS</div>
+                    </div>
+                    <div class="items">
+                        <img src="images/homepages/LJC-Designs-Clem-Top-Pale-Pink-A.webp" alt="Montaigne_web_JacquiTurk">
+                        <div class="introduce">CLOTHING</div>
+                    </div>
+                    <div class="items">
+                        <img src="images/product-list/Adorne-Floral-Sequin-Hoops-Hot-Pink-1.webp" alt="Adorne-Floral-Sequin-Hoops-Hot-Pink">
+                        <div class="introduce">JEWELLERY</div>
+                    </div>
+                    <div class="items">
+                        <img src="images/homepages/Categories/Adorne-Fern-Clutch-A.webp" alt="Adorne-Fern-Clutch">
+                        <CLOTHING class="introduce">ACCESSOIRES</div>
+                    </div>
+            </li>
+             <!-- new button -->
+            <li class="left-content">
+                <div class="dropDownName">NEW</div>
+                <div class="dropDownItems">
+                    <div class="items">
+                        <div class="newContainer">
+                            <img src="images/product-list/Esmaee-Ashton-Shirt-White-E-1.webp" alt="Esmaee-Ashton-Shirt-White">
+                            <div class="decribe">
+                                <p class="imageName_new">Esmaee Ashton Shirt</p>
+                                <br>
+                                <p class="imageName_new">$149.95</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="items">
+                        <div class="newContainer">
+                            <img src="images/product-list/Palm-Collective-Checkerboard-Dress-Pink-A-1-1-1.webp" alt="Collective-Checkerboard-Dress-Pink">
+                            <div class="decribe">
+                                <p class="imageName_new">Adorne Sofia Linen Top </p>
+                                <br>
+                                <p class="imageName_new">$99.95</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="items">
+                        <div class="newContainer">
+                            <img src="images/product-list/Adorne-Sofia-Top-Green-A-1-1.webp" alt="Adorne-Sofia-Top-Green">
+                            <div class="decribe">
+                                <p class="imageName_new">Palm Collective Shirt Dress</p>
+                                <p class="imageName_new">$99.95</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="items">
+                        <div class="newContainer">
+                            <img src="images/product-list/Esmaee-Momento-Shacket-1.webp" alt="Esmaee-Momento-Shacket-">
+                            <div class="decribe">
+                                <p class="imageName_new">Esmaee Momento Denim Shacket</p>
+                                <p class="imageName_new">$99.95</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="items">
+                        <div class="newContainer">
+                            <img src="images/product-list/Esmaee-Cannes-Blouse-Cornflower-B-1.webp" alt="Esmaee-Cannes-Blouse-Cornflower">
+                            <div class="decribe">
+                                <p class="imageName_new">Esmaee Cannes Blouse</p>
+                                <br>
+                                <p class="imageName_new">$149.95</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="items">
+                        <div class="newContainer">
+                            <img src="images/homepages/Esmaee-Rosewood-Blouse-A-1.webp" alt="Esmaee-Cannes-Blouse-Cornflower">
+                            <div class="decribe">
+                                <p class="imageName_new">EXPLORE</p>
+                                <p class="imageName_new">MORE</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <!-- SALES -->
+            <li class="left-content">
+                <div class="dropDownName">SALE</div>
+                <div class="dropDownItems">
+                    <div class="items">
+                        <div class="newContainer">
+                            <img src="images/homepages/Adorne-Colby-Dress-Multi-A-1.webp" alt="Adorne-Colby-Dress">
+                            <div class="decribe">
+                                <p class="imageName_new">Adorne Colby Printed Maxi Dress</p>
+                                <p class="price-origin">$149.95</p>
+                                <p  class="price-on-sale" id="pink">$69.95</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="items">
+                        <div class="newContainer">
+                            <img src="images/productdetail/Adorne-Bliss-Dress-Red-A-1.webp" alt="Adorne-Bliss-Dress-Red">
+                            <div class="decribe">
+                                <p class="imageName_new">Adorne Bliss Casablance Dress </p>
+                                <p class="price-origin">$119.95</p>
+                                <p class="price-on-sale" id="pink">$69.95</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="items">
+                        <div class="newContainer">
+                            <img src="images/homepages/Nude-Lucy-Alto-Mini-Dress-White.webp" alt="Nude-Lucy-Alto-Mini-Dress">
+                            <div class="decribe">
+                                <p class="imageName_new">Nude Lucy Alto Mini Dress</p>
+                                <p class="price-origin">$100</p>
+                                <p class="price-on-sale" id="pink">$59</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="items">
+                        <div class="newContainer">
+                            <img src="images/homepages/Shanty-Wing-and-a-Prayer-Dress-Bouquet-Modal-A-1-scaled.webp" alt="Shanty Wing and a Prayer-Dress Bouquet Modal">
+                            <div class="decribe">
+                                <p class="imageName_new">Esmaee Tropicana Oversized Shirt</p>
+                                <p class="price-origin">$159.95</p>
+                                <p class="price-on-sale" id="pink">$89</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="items">
+                        <div class="newContainer">
+                            <img src="images/menu-bar/Adorne-Louie-Cami-Blue-A-1.webp" alt="Adorne-Louie-Cami-Blue">
+                            <div class="decribe">
+                                <p class="imageName_new">Adorne Louie Linen Cami</p>
+                                <p class="price-origin">$79.95</p>
+                                <p class="price-on-sale" id="pink">$49.95</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="items">
+                        <div class="newContainer">
+                            <img src="images/product-list/Esmaee-Cannes-Blouse-Cornflower-B-1.webp" alt="Esmaee-Cannes-Blouse-Cornflower">
+                            <div class="decribe">
+                                <p class="imageName_new">EXPLORE</p>
+                                <p class="imageName_new">MORE</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+
+            <li class="left-content">
+                <div class="dropDownName">ABOUT</div>
+            </li>
+        
+        </ul>
+        <!-- right side items -->
+        <ul class="rightPart">
+            <li><img class="rightICON" src="images/icons/search.svg" alt="search"></li>
+            <li><img class="rightICON" src="images/icons/account.svg" alt="account"></li>
+            <li><img class="rightICON" src="images/icons/wishlist.svg" alt="wishlish"></li>
+            <li><img class="rightICON" onclick="showbag()" src="images/icons/bag.svg" alt="bag"></li>
+        </ul>
+
+
+    </div>
+<!-- mobile vision -->
+    <div class="mobileContainer">
+        <div class="mobile-left">
+            <img src="images/icons/hamburger-button.svg" onclick="expand()" alt="burger">
+            <img src="images/icons/heart.svg" alt="like">
+        </div>
+        <div class="mobile-mid">
+            <a id="tittle-mobile" href="index.html"><h5>Vavoom & Co</h5></a>
+        </div>
+        <div class="mobile-right">
+            <img src="images/icons/search.svg" alt="search">
+            <img src="images/icons/account.svg" alt="account">
+             <img onclick="showbag()" src="images/icons/bag.svg" alt="bag">
+        </div>
+    </div>
+    <ul class="expand" id="ex">
+        <li> <img class="mobile-back" onclick="back()" src="images/icons/close.svg" alt="close"></li>
+        <li class="main">New Arrivals</li>
+        <li class="main">Sale</li>
+        <li class="main">Best Sellers</li>
+        <li> <div>
+            <span class="main">Shop</span>
+            <span> <img id="showsub" onclick="showItems()" src="images/icons/back.svg" alt="expand"></span>
+        </div></li>
+        <div class="subshowItems" id="drop">
+            <li class="sub">Clothing</li>
+            <li class="sub">Shoes</li>
+            <li class="sub">Labels</li>
+            <li class="sub"> Jewellery</li>
+            <li class="sub">Handbags</li>
+            <li class="sub">Accessoies</li>
+            <li class="sub">Luggage</li>
+            <li class="sub">Gifts</li>
+            <li class="sub">GIft Cards</li>
+        </div>
+    </ul>
+    <!-- bag  -->
+    <div class="bag" id="bag">
+        <div class="bag-title"></div>
+        <div class="shopping-bag">
+            <div class="shopping-bag-title">
+                <img onclick="hidebag()" src="images/icons/close.svg" alt="">
+                <h4>Bag</h4>
+                <h5>2 ITEMS</h5>
+            </div>
+            <div class="products">
+                <img src="images/checkout/Palm-Collective-Checkerboard-Dress-Brown-A-1-1.webp" alt="Palm Collective Checkerboard Dress Brown" class="productimage">
+                <div class="product-info">
+                    <h5 class="product-title">Palm Collective Checkerboard Shirt Dress</h5>
+                    <div class="product-style">
+                        <div class="size-bag">XL</div>
+                        <img src="images/icons/ColourBrown.svg" alt="colour brown" class="colour-choice-nav">
+                    </div>
+                    <p class="product-price-bag">$149</p>
+                    <p class="remove">Remove</p>
+                </div>
+                <div class="add-quantity">
+                    <img src="images/icons/quantity+.svg" alt="add 1">
+                    <img src="images/icons/quantity.svg" alt="1 quantity">
+                    <img src="images/icons/quantity-.svg" alt="minus 1">
+                </div>
+            </div>
+            <div class="products">
+                <img src="images/checkout/Adorne-Sofia-Top-Green-A-1-1.webp" alt="Adorne Sofia Top Green" class="productimage">
+                <div class="product-info">
+                    <h5 class="product-title">Palm Collective Checkerboard Shirt Dress</h5>
+                    <div class="product-style">
+                        <div class="size-bag">size 8</div>
+                        <img src="images/icons/ColourGreen.svg" alt="colour brown" class="colour-choice-nav">
+                    </div>
+                    <p class="product-price-bag">$169</p>
+                    <p class="remove">Remove</p>
+                </div>
+                <div class="add-quantity">
+                    <img src="images/icons/quantity+.svg" alt="add 1">
+                    <img src="images/icons/quantity.svg" alt="1 quantity">
+                    <img src="images/icons/quantity-.svg" alt="minus 1">
+                </div>
+            </div>
+        </div>
+        <div class="checkout-info">
+            <div class="bag-info">
+                <div class="afterpay">
+                    <p class="afterpay-tips">Try 4 interest-free payments of $59.74 with</p>
+                    <img src="images/icons/Afterpay-checkout.svg" alt="afterpay service">
+                </div>
+            </div>
+            <div class="bag-subtotal">
+                <p class="subtotal-title">SUBTOTAL</p>
+                <p class="price">$248.95</p>
+            </div>
+            <div class="checkout-btn">
+                <a href="checkout.html" class="btn btn-secondary btn-bag">CHECKOUT</a>
+            </div>
+        </div>
+    </div>
+    <!-- Style for body -->
     <div class="product-details">
         <div class="nav-bar">
             <a href="index.html"><h4>HOME</h4></a>
@@ -134,7 +412,7 @@
             </div>
             <div class="add-to-bag">
                 <p class="shipping-info">Free shipping anywhere in Australia for orders over $150</p>
-                <div class="btn btn-primary btn-productDetail">ADD TO BAG</div>
+                <div onclick="showbag()" class="btn btn-primary btn-productDetail">ADD TO BAG</div>
             </div>
         </div>
     </div>

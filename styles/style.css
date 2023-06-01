@@ -18,6 +18,7 @@
     color: black;
     border: 1px solid black;
     transition: all 0.2s;
+    cursor: pointer;
 }
 .btn-homepage{
     font-size: var(--text-lg); 
@@ -42,6 +43,7 @@
 .btn-secondary{
     color: white;
     background-color: var(--colour-primary);
+    cursor: pointer;
 }
 .btn-secondary:hover{
     background-color: var(--colour-primaryHover);
