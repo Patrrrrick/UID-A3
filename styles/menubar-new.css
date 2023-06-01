@@ -42,6 +42,7 @@ li {
      width: 20px;
      height: 20px;
      cursor: pointer;
+     z-index: 0;
      
 }
 

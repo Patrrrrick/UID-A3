@@ -2,12 +2,16 @@
 .bag{
     margin-left: auto;
     border: 0.5px solid black;
+    background-color: white;
     width: 500px;
     height: 100vh;
-    position: relative;
+    position: absolute;
+    top: 0;
+    right: 0;
     display: none;
     flex-direction: column;
     align-items: center;
+    z-index: 1;
 }
 /* Style for shopping bag products */
 .shopping-bag{

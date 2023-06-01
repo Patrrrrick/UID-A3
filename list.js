@@ -1,5 +1,3 @@
-
-
 // for icon change
 function iconChange() {
     var icon = document.getElementById('layoutbutton');
@@ -10,9 +8,9 @@ function iconChange() {
     } else {
         icon.src ='images/icons/WechatIMG53762.png'
         contain.style.justifyContent = 'space between'
-
     }
 }
+
 // hover  picture 1
 function picture1() {
   var icon = document.getElementById('spcial1');
@@ -139,7 +137,7 @@ function cancel () {
 
   function expand() {
       var wid = document.getElementById("ex");
-      wid.style.width = "40%";
+      wid.style.width = "100%";
   }
 // show bag 
   function showbag() {
