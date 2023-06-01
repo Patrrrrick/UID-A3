@@ -253,6 +253,7 @@ li {
         margin-right: 8px;
         width: 12px;
         height: 12px;
+        cursor: pointer;
     }
 
     .sub {
