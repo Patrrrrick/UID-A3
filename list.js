@@ -156,3 +156,10 @@ function cancel () {
     var hide = document.getElementById("bag");
     hide.style.display = 'none';
   }
+
+  //show sub items
+
+  function showItems() {
+    var show = document.getElementById("drop");
+    show.style.display = 'flex';
+  }
