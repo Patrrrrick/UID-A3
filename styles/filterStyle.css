@@ -114,6 +114,7 @@
     justify-content: center;
     align-items: center;
     margin-bottom: 20px;
+    cursor: pointer;
 }
 
 .confirmItems {
@@ -162,6 +163,7 @@
         padding: 10px;
         background-color: white;
         overflow: hidden;
+        z-index: 10;
 
     
     }
@@ -177,6 +179,7 @@
         margin-right: 10px;
         width: 20px;
         height: 20px;
+        cursor: pointer;
     }
     .mobileName p{
         font-size: var(--text-lg);
@@ -258,6 +261,7 @@
         justify-content: center;
         align-items: center;
         margin-top: 10px;
+        cursor: pointer;
     }
     
     .reset {

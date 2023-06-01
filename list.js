@@ -29,18 +29,51 @@ document.getElementById('layoutbutton').addEventListener('click', function() {
 
 // expand filter area and hide 
   document.getElementById('filter').addEventListener('click',function() {
+    var width = window.innerWidth
     var hide = document.getElementById("filter-lap");
     var show = document.getElementById("confirm");
     var ex = document.getElementById('top')
 
-    if (hide.style.display=="flex") {
-      hide.style.display ='none'
-      show.style.display = 'none'
-      ex.style.display = 'none'
-    }
-    else {
-      hide.style.display ='flex'
-      show.style.display = 'flex'
-      ex.style.display = 'flex'
-    }
-  })
+    // mobile varibles
+    var hideMob = document.getElementById("mobile-filter");
+
+
+
+    if (width > 850) {
+      if (hide.style.display == "flex") {
+        hide.style.display = 'none'
+        show.style.display = 'none'
+        ex.style.display = 'none'
+      } else {
+        hide.style.display = 'flex'
+        show.style.display = 'flex'
+        ex.style.display = 'flex'
+      }
+    } else {
+      if (hideMob.style.display =='none'){
+        hideMob.style.display ='flex'
+      }
+      else {
+        hideMob.style.display ='none'
+      }
+    }    
+})
+
+
+// cancel all windows
+
+function cancel () {
+  // mobile filter
+  var a = document.getElementById("mobile-filter")
+  // pc filter 
+  var b = document.getElementById("filter-lap");
+  var c = document.getElementById("confirm");
+  var d = document.getElementById('top')
+
+  a.style.display='none'
+  b.style.display='none'
+  c.style.display='none'
+  d.style.display='none'
+
+
+}

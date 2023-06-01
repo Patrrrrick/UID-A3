@@ -92,7 +92,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="confirmButton" id="confirm">
+                <div class="confirmButton" id="confirm" onclick="cancel ()">
                     <div class="applyContainer">
                         <div class="confirmItems"><span>APPLY</span></div>
                         <div class="confirmIcon"></div>
@@ -102,10 +102,10 @@
         
                         <!--             mobile vision  -->
                 <div class="mobile-filter">
-                    <div class="filter-mobile-container">
+                    <div class="filter-mobile-container" id="mobile-filter">
                         <div class="mobileName">
                                 <p>FILTER</p>
-                                <img src="images/icons/close.svg" alt="cancel"> 
+                                <img src="images/icons/close.svg" alt="cancel" onclick="cancel ()"> 
                         </div>
         
                         <div class="Row">
@@ -158,7 +158,7 @@
                             </div>
                         </div>
                         <div>
-                            <div class="container">
+                            <div class="container" onclick="cancel ()">
                                 <div class="mobile-apply">APPLY</div>
                             </div>
                             <div>
