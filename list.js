@@ -10,7 +10,7 @@ function iconChange() {
     }
 }
 
-
+// for change image size
 document.getElementById('layoutbutton').addEventListener('click', function() {
     var images = document.getElementsByClassName('product');
     for (var i = 0; i < images.length; i++) {

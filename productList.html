@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="styles/style.css">
      <link rel="stylesheet" href="styles/productListStyle.css">
      <link rel="stylesheet" href="styles/layout.css">
+     <link rel="stylesheet" href="styles/filterStyle.css">
 </head>
 <body>
     <div class="workSpace">       
@@ -26,7 +27,148 @@
                     <p class="tab-right"><img  onclick="iconChange()"id="layoutbutton" src="images/icons/WechatIMG53762.png" alt="layoutbutton"></p>
                     <p class="tab-right"><img  src="images/icons/filter.svg" alt="FilterIcon"></p>
                 </span>
+                
             </div>
+            <!-- filter expand -->
+            <div class="filterSpace">
+                <div class="topline"> <h3 class="FilterName">Filter & Sort</h3></div>
+                <div class="filterContainer">
+                    <div class="column">
+                        <div class="topic"><p>Sorted By</p> </div>
+                        <div class="subContent">
+                            <p>Price high to low</p>
+                            <p>price low to high</p>
+                            <p>Popularity</p>
+                            <p>Newest</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="topic"><p>Categories</p></div>
+                        <div class="subCotent">
+                            <p class="contentLine">Shirt</p>
+                            <p class="contentLine">Earrings</p>
+                            <p class="contentLine">Dress</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="topic"><p>Price Range</p></div>
+                        <div class="subCotent">
+                            <p class="contentLine">$0-50</p>
+                            <p class="contentLine">$50-100</p>
+                            <p class="contentLine">$100-150</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="topic"><p>Colour</p></div>
+                        <div class="subCotent">
+                            <div class="lineOne">
+                                <img class="firstLine" src="images/icons/ColourDarkGreen.svg" alt="darkGreen">
+                                <img class="firstLine" src="images/icons/ColourWhite.svg" alt="darkGreen">
+                                <img class="firstLine" src="images/icons/ColourRed.svg" alt="red">
+                            </div>
+                            <div class="lineTwo">
+                                <img class="secondLine" src="images/icons/ColourDarkBrown.svg" alt="darkbrown">
+                                <img class="secondLine" src="images/icons/ColourBrown.svg" alt="brown">
+                                <img class="secondLine" src="images/icons/GradientFlesh.png" alt="gradientColor">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="topic"><p>Size</p></div>
+                        <div class="sizeLineOne">
+                            <img class="firstSizeLine"src="images/icons/Size-XS.svg" alt="XS">
+                            <img class="firstSizeLine"src="images/icons/Size-XSS.svg" alt="XS/S">
+                            <img class="firstSizeLine"src="images/icons/Size-S.svg" alt="S">
+                            <img class="firstSizeLine"src="images/icons/Size-SM.svg" alt="S/M">
+                            <img class="firstSizeLine"src="images/icons/Size-ML.svg" alt="M/L">
+                            <img class="firstSizeLine"src="images/icons/Size-L.svg" alt="L">
+                        </div>
+                        <div class="sizeLineTwo">
+                            <img class="secondSizeLine" src="images/icons/Size-8.svg" alt="8">
+                            <img class="secondSizeLine" src="images/icons/Size-10.svg" alt="10">
+                            <img class="secondSizeLine" src="images/icons/Size-12.svg" alt="12">
+                            <img class="secondSizeLine" src="images/icons/Size-14.svg" alt="14">
+                            <img class="secondSizeLine" src="images/icons/Size-16.svg" alt="16">
+                        </div>
+                    </div>
+                </div>
+                <div class="confirmButton">
+                    <div class="applyContainer">
+                        <div class="confirmItems"><span>APPLY</span></div>
+                        <div class="confirmIcon"></div>
+                    </div>
+                </div>
+        
+        
+                        <!--             mobile vision  -->
+                <div class="mobile-filter">
+                    <div class="filter-mobile-container">
+                        <div class="mobileName">
+                                <p>FILTER</p>
+                                <img src="images/icons/close.svg" alt="cancel"> 
+                        </div>
+        
+                        <div class="Row">
+                            <ul class="row1">
+                                <li class="tittle">SORT BY</li>
+                                <li class="sub">PRICE (LOW - HIGH)</li>
+                                <li class="sub">PRICE (HIGH - LOW)</li>
+                                <li class="sub">NEWEST</li>
+                                <li class="sub">TOP SELLER</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <ul class="row2">
+                                <li class="tittle">PRICE LEVEL</li>
+                                <li class="sub">$0-$50</li>
+                                <li class="sub">$50-$100</li>
+                                <li class="sub">$100-150</li>
+                            </ul>
+                        </div>
+        
+                        <div>
+                            <li class="tittle">COLOUR</li>
+                            <ul class="row">
+                                <li><img class="firstLine" src="images/icons/ColourGreen.svg" alt="darkGreen"></li>
+                                <li><img class="firstLine" src="images/icons/ColourWhite.svg" alt="white"></li>
+                                <li><img class="firstLine" src="images/icons/ColourDarkBrown.svg" alt="brown"></li>
+                                <li><img src="images/icons/ColourBlue.svg" alt="blue"></li>
+                                <li><img src="images/icons/ColourPink.svg" alt="pink"></li>
+                            </ul>
+        
+                        </div>
+                        <div>
+                            <div class="tittle">SIZE</div>
+                            <div>
+                                <div class="first-row-size">
+                                    <img class="firstSizeLine"src="images/icons/Size-XS.svg" alt="XS">
+                                    <img class="firstSizeLine"src="images/icons/Size-XSS.svg" alt="XS/S">
+                                    <img class="firstSizeLine"src="images/icons/Size-S.svg" alt="S">
+                                    <img class="firstSizeLine"src="images/icons/Size-SM.svg" alt="S/M">
+                                    <img class="firstSizeLine"src="images/icons/Size-ML.svg" alt="M/L">
+                                    <img class="firstSizeLine"src="images/icons/Size-L.svg" alt="L">
+                                </div>
+                                <div class="second-row-size">
+                                    <img class="secondSizeLine" src="images/icons/Size-8.svg" alt="8">
+                                    <img class="secondSizeLine" src="images/icons/Size-10.svg" alt="10">
+                                    <img class="secondSizeLine" src="images/icons/Size-12.svg" alt="12">
+                                    <img class="secondSizeLine" src="images/icons/Size-14.svg" alt="14">
+                                    <img class="secondSizeLine" src="images/icons/Size-16.svg" alt="16">
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="container">
+                                <div class="mobile-apply">APPLY</div>
+                            </div>
+                            <div>
+                                <div class="reset">RESET</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- product display -->
             <div class="productContainer">
                 <div class="product">
                     <a href="productDetails-2.html"><img id="spcial" src="images/product-list/Palm-Collective-Checkerboard-Dress-Pink-A-1-1-1.webp" alt="Palm Collective hecker board Dress Pink"></a>

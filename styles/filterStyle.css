@@ -110,6 +110,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 20px;
 }
 
 .confirmItems {
@@ -125,7 +126,11 @@
     height: 40px;
     background-color: #a73c71;
 }
+ /* hide mobile  */
 
+ .filter-mobile-container {
+    display: none;
+ }
 
 
 
@@ -144,6 +149,9 @@
     }
     
     .filter-mobile-container {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
         width: 100%; 
     /* 100% */
         padding: 10px;
