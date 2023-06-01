@@ -166,7 +166,6 @@ function cancel () {
     }else {
       show.style.display = 'none';
     }
- 
   }
 
 
