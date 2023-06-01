@@ -148,13 +148,13 @@ li {
 .decribe {
     text-align: center;
     font-family: var(--font-primary);
-    font-size: var(--text-sm);
+    font-size: var(--text-md);
     margin-top: 5px;
 }
-.priceChange {
-    display: inline-block;
+.imageName_new {
+
     font-family: var(--font-primary);
-    font-size: var(--text-sm);
+    font-size: var(--text-md);
 }
 .expand {
     display: none;
