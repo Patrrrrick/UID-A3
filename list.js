@@ -27,13 +27,16 @@ document.getElementById('layoutbutton').addEventListener('click', function() {
   document.getElementById('filter').addEventListener('click',function() {
     var hide = document.getElementById("filter-lap");
     var show = document.getElementById("confirm");
+    var ex = document.getElementById('top')
 
     if (hide.style.display=="flex") {
       hide.style.display ='none'
       show.style.display = 'none'
+      ex.style.display = 'none'
     }
     else {
       hide.style.display ='flex'
       show.style.display = 'flex'
+      ex.style.display = 'flex'
     }
   })

@@ -3,6 +3,8 @@
     font-family: var(--font-primary);
 }
 .topline {
+    display: none;
+    justify-content: center;
     width: 100%;
     text-align: center;
     margin-bottom: 20px;
@@ -261,5 +263,9 @@
         font-family: var(--font-secondary);
         color: grey;
         text-decoration: underline;
+    }
+
+    #layoutbutton {
+        cursor: pointer;
     }
 }
