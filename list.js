@@ -141,12 +141,12 @@ function cancel () {
       var wid = document.getElementById("ex");
       wid.style.width = "40%";
   }
-
+// show bag 
   function showbag() {
     var bag =document.getElementById("bag")
     bag.style.display = "flex"
   }
-
+// hide bag
   function hidebag() {
 
     var hide = document.getElementById("bag")
