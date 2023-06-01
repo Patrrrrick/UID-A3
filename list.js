@@ -161,5 +161,12 @@ function cancel () {
 
   function showItems() {
     var show = document.getElementById("drop");
-    show.style.display = 'flex';
+    if ( show.style.display = 'none') {
+      show.style.display = 'flex';
+    }else {
+      show.style.display = 'none';
+    }
+ 
   }
+
+
