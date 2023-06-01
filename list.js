@@ -141,3 +141,14 @@ function cancel () {
       var wid = document.getElementById("ex");
       wid.style.width = "40%";
   }
+
+  function showbag() {
+    var bag =document.getElementById("bag")
+    bag.style.display = "flex"
+  }
+
+  function hidebag() {
+
+    var hide = document.getElementById("bag")
+    hide.style.display = 'none'
+  }

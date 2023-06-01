@@ -5,7 +5,7 @@
     width: 500px;
     height: 100vh;
     position: relative;
-    display: flex;
+    display: none;
     flex-direction: column;
     align-items: center;
 }
@@ -26,6 +26,7 @@
 .shopping-bag-title img{
     position: absolute;
     top: 1vh;
+    cursor: pointer;
 }
 .shopping-bag-title h4{
     position: absolute;
