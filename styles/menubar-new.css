@@ -183,6 +183,7 @@ li {
     .mobile-mid {
         display: flex;
         justify-content: center;
+        text-decoration: none;
     }
     .mobile-right {
         display: flex;
@@ -211,9 +212,12 @@ li {
         margin-top: 15px;
         font-family: var(--font-primary);
         font-size: var(--text-lg);
+        color: black;
         cursor: pointer;
         text-decoration: none;
-
+    }
+    #tittle-mobile {
+        text-decoration: none;
     }
     .mobile-right img {
         width: 20px;

@@ -489,7 +489,6 @@
         display: none;
     }
 
-
     ul {
         border-bottom: 1px solid #a73c71;
     }
@@ -499,13 +498,14 @@
         position: absolute;
         display: none;
         flex-direction: column;
-        width: 100%; 
         overflow: hidden;
+        width: 100vw;
     /* 100% */
-        padding: 10px;
+        padding: 0px;
         background-color: white;
         overflow: hidden;
         z-index: 10;
+        border-bottom: 1px solid grey;
 
     
     }
@@ -518,7 +518,7 @@
     }
     
     .mobileName img {
-        margin-right: 10px;
+        margin-right: 0px;
         width: 20px;
         height: 20px;
         cursor: pointer;
@@ -530,7 +530,7 @@
     }
     
     li {
-        margin-left: 10px;
+
         margin-top: 20px;
         margin-bottom: 20px;
     }
@@ -546,14 +546,14 @@
     
     .first-row-size img {
         margin-top: 10px;
-        margin-left: 5px;
-        margin-bottom: 5px;
+
+        margin-bottom: 5x;
         width: auto;
         height: auto;
     }
     .second-row-size img {
         margin-top: 5px;
-        margin-left: 5px;
+
         margin-bottom: 5px;
         width: auto;
         height: auto;
@@ -564,12 +564,11 @@
         display: flex;
         flex-direction: row;
     }
+    /* stop */
     .row li img {
         width: 30px;
         height: 30px;
-        margin-left: 5px;
-        margin-right: 5px;
-        margin-top: 5px;
+
     }
 
     .tittle {
