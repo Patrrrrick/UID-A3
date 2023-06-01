@@ -23,11 +23,17 @@ document.getElementById('layoutbutton').addEventListener('click', function() {
     }
   });
 
-
+// expand filter area and hide 
   document.getElementById('filter').addEventListener('click',function() {
     var hide = document.getElementById("filter-lap");
-    var hide = document.getElementById("confirm");
-    hide.style.display ='flex'
-    confirm.style.display = 'flex'
+    var show = document.getElementById("confirm");
 
+    if (hide.style.display=="flex") {
+      hide.style.display ='none'
+      show.style.display = 'none'
+    }
+    else {
+      hide.style.display ='flex'
+      show.style.display = 'flex'
+    }
   })
