@@ -10,9 +10,9 @@
     <link rel="stylesheet" href="wishlist.css">
 </head>
 <body>
-    <div class="wishlishContainer">
+    <div class="wishlishContainer" id="wish-container">
         <div class="top-wish">
-             <div class="cancel-wish"><img src="images/icons/close.svg" alt="back"></div>
+             <div class="cancel-wish"><img onclick="hidewish()" src="images/icons/close.svg" alt="back"></div>
              <div class="tittle-wish"><p>Wish List</p></div>
              <div class="items-wish">1 ITEMS</div>
         </div>
@@ -24,7 +24,7 @@
                 <div class="size-wish"> Size:XL</div>
                 <div class="price-wish"> Price:$99.95</div>
                 <div class="delete-wish">Remove</div>
-                <div class="move-wish"> <p>Add To Bag</p></div>
+                <div class="move-wish" onclick="closeWishOpenBag()"> <p>Add To Bag</p></div>
             </div>
        </div>
 
@@ -35,7 +35,7 @@
             <div class="size-wish"> Size:XL</div>
             <div class="price-wish"> Price:$99.95</div>
             <div class="delete-wish">Remove</div>
-            <div class="move-wish"> <p>Add To Bag</p></div>
+            <div class="move-wish" onclick="closeWishOpenBag()"> <p>Add To Bag</p></div>
         </div>
    </div>
         

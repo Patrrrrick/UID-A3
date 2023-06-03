@@ -242,3 +242,26 @@ function hideAccount() {
   var hide =document.getElementById("AC");
   hide.style.display = "none";
 }
+
+
+// Js for WIsh list
+
+
+// show wish list
+function showwish() {
+  var show =document.getElementById("wish-container");
+  show.style.display = "flex";
+}
+
+// hide wish list
+function hidewish() {
+  var hide =document.getElementById("wish-container");
+  hide.style.display = "none";
+}
+// hide wish list and open bag
+function closeWishOpenBag() {
+  var move =document.getElementById("wish-container");
+  var bag = document.getElementById("bag");
+  move.style.display = "none";
+  bag.style.display = "flex";
+}
