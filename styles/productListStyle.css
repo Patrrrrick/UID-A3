@@ -388,8 +388,8 @@
     }
     
     .filter-mobile-container {
-        top: 0;
-        position: absolute;
+        bottom: 0;
+        position: fixed;
         display: none;
         flex-direction: column;
         overflow: hidden;
@@ -399,7 +399,8 @@
         background-color: white;
         overflow: hidden;
         z-index: 10;
-        border-bottom: 1px solid grey;
+        border-top: 1px solid grey;
+        height: 90vh;
 
     
     }
@@ -424,9 +425,8 @@
     }
     
     li {
-
-        margin-top: 20px;
-        margin-bottom: 20px;
+        margin-top: 15px;
+        margin-bottom: 12px;
     }
     /* size line */
     .first-row-size {
@@ -440,14 +440,14 @@
     
     .first-row-size img {
         margin-top: 10px;
-
+        margin-left: 5px;
         margin-bottom: 5x;
         width: auto;
         height: auto;
     }
     .second-row-size img {
         margin-top: 5px;
-
+        margin-left: 5px;
         margin-bottom: 5px;
         width: auto;
         height: auto;
@@ -457,11 +457,13 @@
     .row {
         display: flex;
         flex-direction: row;
+        align-items: center;
     }
     /* stop */
     .row li img {
         width: 30px;
         height: 30px;
+        margin-left: 7px;
 
     }
 
