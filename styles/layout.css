@@ -192,9 +192,11 @@ li {
         background-color: white;
     }
     .mobile-left,
-    .mobile-mid,
     .mobile-right {
-        width: 33%; 
+        width: 30%; 
+    }
+    .mobile-mid{
+        width: 40%;
     }
     .mobile-left {
         display: flex;

@@ -330,7 +330,7 @@ html {
     }
     .mobile-price{
         margin-top: 2%;
-        font-family: var(--font-secondary);
+        font-family: var(--font-primary);
         font-size: var(--text-lg);
         font-style: normal;
         text-align: center;
