@@ -184,7 +184,7 @@
         <!-- right side items -->
         <ul class="rightPart">
             <li><a href="searchResult.html"><img class="rightICON" src="images/icons/search.svg" alt="search"></a></li>
-            <li><img class="rightICON" src="images/icons/account.svg" alt="account"></li>
+            <li><img class="rightICON" onclick="showAccount()" src="images/icons/account.svg" alt="account"></li>
             <li><img class="rightICON" src="images/icons/wishlist.svg" alt="wishlish"></li>
             <li><img class="rightICON" onclick="showbag()" src="images/icons/bag.svg" alt="bag"></li>
         </ul>
@@ -202,7 +202,7 @@
         </div>
         <div class="mobile-right">
             <a href="searchResult.html"><img src="images/icons/search.svg" alt="search"></a>
-            <img src="images/icons/account.svg" alt="account">
+            <img onclick="showAccount()" src="images/icons/account.svg" alt="account">
              <img onclick="showbag()" src="images/icons/bag.svg" alt="bag">
         </div>
     </div>
@@ -227,6 +227,33 @@
             <li class="sub">GIft Cards</li>
         </div>
     </ul>
+    <!-- account -->
+    <div class="accountWorkPlace" id="AC">
+        <div class="firstLine">
+            <img class="top-left-icon" onclick="hideAccount()" src="images/icons/close.svg" alt="closeIcon">
+            <p class="top-right-name">Account</p>
+        </div>
+         <div class="specialTittle">
+            EARN POINTS AND EASILY TRACK AND RETURN YOUR ORDERS!
+            </div>
+        <div class="mainArea">
+            <input class="nameLine" type="text" id="firstName" placeholder="First name">
+            <input class="nameLine" type="text" id="lasttName" placeholder="Last name">
+        </div>
+        <div class="emailLIne">
+            <input class="email" type="text" placeholder="Email">
+        </div>
+        <div class="create">
+            <div class="backgroundPink" onclick="hideAccount()"> <p>Create An Account Now!</p></div>
+          
+        </div>
+        <div class="seperate-1">
+            OR
+        </div>
+        <div class="seperate-2">Already Have An Account?</div> 
+            
+        <div class="backgroundBlack" onclick="hideAccount()"><p>Log In</p> </div>
+    </div>
     <!-- bag  -->
     <div class="bag" id="bag">
         <div class="bag-title"></div>

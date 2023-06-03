@@ -230,3 +230,15 @@ function showItems() {
 function gotoPrevious(){
   window.history.back();
 }
+
+// show account work space
+function showAccount() {
+  var show =document.getElementById("AC");
+  show.style.display = "block";
+}
+
+// hide account space 
+function hideAccount() {
+  var hide =document.getElementById("AC");
+  hide.style.display = "none";
+}
