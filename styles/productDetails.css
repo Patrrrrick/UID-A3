@@ -205,12 +205,12 @@ html {
 
 }
 .colour-choice{
-    margin-top: 30px;
+    margin-top: 20px;
 }
 .colour-btn{
     height: 5vh;
     display: flex;
-    margin-top: 10px;
+    margin-top: 5px;
     transform: scale(0.8);
 }
 .colour-btn img{
@@ -221,14 +221,14 @@ html {
     font-family: var(--font-secondary);
 }
 .size-choice{
-    margin-top: 30px;
+    margin-top: 20px;
 }
 .size-choice p{
     font-size: var(--text-md);
     font-family: var(--font-secondary);
 }
 .size-btn{
-    margin-top: 10px;
+    margin-top: 5px;
     display: flex;
     margin-left: 20px;
 }
