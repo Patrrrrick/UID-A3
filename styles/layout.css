@@ -71,7 +71,6 @@ li {
     font-family: var(--font-primary);
     text-align: center;
     text-decoration: none;
-    margin-right: 15px;
     cursor: pointer;
 }
 .dropDownName a:hover {
