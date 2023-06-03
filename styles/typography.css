@@ -3,8 +3,8 @@
     --font-primary: "quiverleaf-cf";
     /* Body text */
     --font-secondary: "quasimoda";
-    /* Basic font size */
-    --text-base-size: 10px;
+    /* Basic font size 10px, coverted to rem*/
+    --text-base-size: 0.625rem;
     /* Type scale */
     --text-scale-ratio: 1.618;
     --text-sm: var(--text-base-size);
