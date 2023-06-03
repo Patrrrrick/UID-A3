@@ -185,7 +185,7 @@
         <ul class="rightPart">
             <li><a href="searchResult.html"><img class="rightICON" src="images/icons/search.svg" alt="search"></a></li>
             <li><img class="rightICON" onclick="showAccount()" src="images/icons/account.svg" alt="account"></li>
-            <li><img class="rightICON" src="images/icons/wishlist.svg" alt="wishlish"></li>
+            <li><img class="rightICON" onclick="showwish()" src="images/icons/wishlist.svg" alt="wishlish"></li>
             <li><img class="rightICON" onclick="showbag()" src="images/icons/bag.svg" alt="bag"></li>
         </ul>
 
@@ -195,7 +195,7 @@
     <div class="mobileContainer">
         <div class="mobile-left">
             <img src="images/icons/hamburger-button.svg" onclick="expand()" alt="burger">
-            <img src="images/icons/heart.svg" alt="like">
+            <img src="images/icons/heart.svg" onclick="showwish()" alt="like">
         </div>
         <div class="mobile-mid">
             <a id="tittle-mobile" href="index.html"><h5>Va Voom & Co</h5></a>
@@ -254,6 +254,36 @@
             
         <div class="btn btn-back backgroundBlack" onclick="hideAccount()"><p>Log In</p> </div>
     </div>
+     <!-- wishlist  -->
+     <div class="wishlishContainer" id="WISH-CON">
+        <div class="top-wish">
+             <div class="cancel-wish"><img onclick="hidewish()" src="images/icons/close.svg" alt="back"></div>
+             <div class="tittle-wish"><p>Wish List</p></div>
+             <div class="items-wish">1 ITEMS</div>
+        </div>
+
+       <div class="product-wish">
+            <div class="photos-wish"><img src="images/product-list/Adorne-Sofia-Top-Green-A-1-1.webp" alt="Adorne-Sofia-Top-Green"></div>
+            <div class="description-wish">
+                <div class="productName-wish">Adorne Sofia Linen Top</div>
+                <div class="size-wish"> Size:XL</div>
+                <div class="price-wish"> Price:$99.95</div>
+                <div class="delete-wish">Remove</div>
+                <div class="btn btn-secondary move-wish" onclick="closeWishOpenBag()"> <p>Add To Bag</p></div>
+            </div>
+       </div>
+
+       <div class="product-wish">
+        <a href="productDetails-2-brown.html"><div class="photos-wish"><img src="images/checkout/Palm-Collective-Checkerboard-Dress-Brown-A-1-1.webp" alt="Palm-Collective-Checkerboard-Dress"></a></div>
+        <div class="description-wish">
+            <div class="productName-wish">Palm Collective Checker Shirt Dress</div>
+            <div class="size-wish"> Size:XL</div>
+            <div class="price-wish"> Price:$99.95</div>
+            <div class="delete-wish">Remove</div>
+            <div class="btn btn-secondary move-wish" onclick="closeWishOpenBag()"> <p>Add To Bag</p></div>
+        </div>
+    </div>       
+    </div>   
     <!-- bag  -->
     <div class="bag" id="bag">
         <div class="bag-title"></div>

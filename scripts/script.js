@@ -249,18 +249,18 @@ function hideAccount() {
 
 // show wish list
 function showwish() {
-  var show =document.getElementById("wish-container");
+  var show =document.getElementById("WISH-CON");
   show.style.display = "flex";
 }
 
 // hide wish list
 function hidewish() {
-  var hide =document.getElementById("wish-container");
+  var hide =document.getElementById("WISH-CON");
   hide.style.display = "none";
 }
 // hide wish list and open bag
 function closeWishOpenBag() {
-  var move =document.getElementById("wish-container");
+  var move =document.getElementById("WISH-CON");
   var bag = document.getElementById("bag");
   move.style.display = "none";
   bag.style.display = "flex";
