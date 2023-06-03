@@ -170,7 +170,7 @@ html {
 /* Product description area */
 .product-description{
     left: 55%;
-    top: 15%;
+    top: 18vh;
     right: 20%;
     grid-column: 2/3;
     grid-row: 2/3;
