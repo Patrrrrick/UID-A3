@@ -626,7 +626,7 @@ li {
     border: 0.5px solid black;
     background-color: white;
     width: 400px;
-    height: 75vh;
+    height: auto;
     position: fixed;
     top: 0;
     right: 0;
@@ -706,11 +706,8 @@ li {
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 40px;
-    background-color: #B95084;
     width: 100%;
-    height: 40px;
-    text-align: center;
-    padding-top: 15px;
+    height: 50px;
     cursor: pointer;
 }
 
@@ -737,8 +734,8 @@ li {
     margin-top: 10px;
     margin-left: 10px;
     margin-right: 10px;
-    margin-bottom: 50px;
-    background-color: #5C3E55;
+    margin-bottom: 10px;
+    background-color: var(-colour-secondary);
     width: 95%;
     height: 50px;
     text-align: center;
