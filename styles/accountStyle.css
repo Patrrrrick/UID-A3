@@ -2,8 +2,8 @@
     margin-left: auto;
     border: 0.5px solid black;
     background-color: white;
-    width: 500px;
-    height: 100vh;
+    width: 400px;
+    height: 70vh;
     position: fixed;
     top: 0;
     right: 0;
@@ -12,7 +12,36 @@
     z-index: 3;
 }
 
-.firstLine, .specialTittle, .mainArea, .emailLIne, .create {
+/* close icon and ACCOUNT TITTLE */
+
+.firstLine {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.top-left-icon {
+    float: left;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.top-right-name{
+    margin: auto;
+    font-size: var(--text-lg);
+    font-family: var(--font-primary);
+}
+/* special information */
+.specialTittle {
+    font-size: var(--text-lg);
+    font-family: var(--font-primary);
+    margin-top: 30px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+/* main body, input box and buttons */
+.specialTittle, .mainArea, .emailLIne, .create ,.seperate-1, .seperate-2, .backgroundBlack {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -23,23 +52,93 @@
 .nameLine {
     flex: 1;
     max-width: 50%; 
-    margin-left: 5px;
-    margin-right: 5px;
-    height: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 40px;
     margin-top: 10px;
     margin-bottom: 10px;
+    border: 0.5px solid gray;
 }
 
 .email {
     flex: 1;
     max-width: 100%; 
-    margin-left: 5px;
-    margin-right: 5px;
-    height: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    height: 40px;
     margin-top: 10px;
     margin-bottom: 10px;
+    border: 0.5px solid gray;
 }
 
-.btn-secondary {
-    align-self: center; 
+.backgroundPink p{ 
+    font-size: var(--text-md);
+    font-family: var(--font-secondary);
+    color: white;
+}
+.backgroundPink {
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 40px;
+    background-color: #B95084;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+
+
+.seperate-1 {
+    font-size: var(--text-sm);
+    font-family: var(--font-secondary);
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.seperate-2 {
+    font-size: var(--text-sm);
+    font-family: var(--font-secondary);
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+.backgroundBlack {
+    font-size: var(--text-md);
+    font-family: var(--font-secondary);
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 50px;
+    background-color: #5C3E55;
+    width: 95%;
+    height: 50px;
+    text-align: center;
+    cursor: pointer;
+    
+}
+
+.backgroundBlack p{
+    color: white;
+}
+
+
+/* mobile vision  for account */
+@media screen and (max-width:850px) {
+
+    .accountWorkPlace {
+    margin-left: auto;
+    border: 0.5px solid black;
+    background-color: white;
+    width: 100px;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    flex-direction: column;
+    align-items: center;
+    z-index: 3;}
 }
