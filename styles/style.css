@@ -112,7 +112,7 @@
     border: 1px solid rgba(0, 0, 0, 0.5);
     z-index: 1;
 }
-.size:active {
+.size:hover {
     color: white;
     background-color: var(--colour-primary);
 }
