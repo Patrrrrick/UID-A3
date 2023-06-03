@@ -112,6 +112,10 @@
     border: 1px solid rgba(0, 0, 0, 0.5);
     z-index: 1;
 }
+.size:active {
+    color: white;
+    background-color: var(--colour-primary);
+}
 /* Style for separation line */
 .line{
     border-bottom: 1.5px solid rgba(184, 184, 184, 0.5);
